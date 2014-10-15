@@ -56,32 +56,6 @@ bool IO_file_exist(const char *filename) {
     return true;
 }
 
-bool IO_file_copy(const char *source , const char *destination) {
-/*
-    if (IO_file_exist(source)) {
-        return false;
-    }
-    FILE *from = fopen(source, "r");
-    FILE *to   = fopen(destination, "w");
-    if (from == NULL || to == NULL) {
-        if (from != NULL) { fclose(from); }
-        if (to != NULL)   { fclose(to); }
-        return false;
-    }
-
-    size_t size = IO_file_size(source);
-    char *buffer = malloc(size);
-    size_t read = fread(buffer, size, 1, from);
-    fwrite(buffer, read, 1, to);
-
-
-    fclose(from);
-    fclose(to);
-*/
-    assert(false);
-    return false; // NOTE: not implemented yet
-}
-
 bool IO_file_move(const char *source, const char *destination) {
    if (!IO_file_exist(source) || IO_file_exist(destination)) {
        return false;

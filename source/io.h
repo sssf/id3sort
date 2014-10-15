@@ -43,16 +43,6 @@ size_t  IO_file_size    (const char *filename);
  */
 bool    IO_file_exist   (const char *filename);
 /**
- * @brief Copy file from source to destination
- *
- * @warning This function has not been implemented yet
- *
- * @param source Path to the file to be copied
- * @param destination Path to copy to.
- * @return true if file could be copied, false otherwise
- */
-bool    IO_file_copy    (const char *source, const char *destination);
-/**
  * @brief Move file from source to destination
  *
  * @param source Path to the file being moved

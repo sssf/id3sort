@@ -11,6 +11,7 @@ typedef struct ID3_info {
     char *year;
 } ID3_info;
 
+
 /**
  * @brief Read basic text frames from file
  *
@@ -35,5 +36,6 @@ void      ID3_info_free  (ID3_info **id3_info);
  * @param *id3_info ID3_info struct to print
  */
 void      ID3_info_print (ID3_info *id3_info);
+
 
 #endif // __ID3_HELPER_H__

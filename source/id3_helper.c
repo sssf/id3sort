@@ -46,31 +46,22 @@ ID3_info* ID3_info_read(const char *filename) {
 
     while ((frame = ID3_read(file))) {
                if (FRAME_ID_EQUAL("TIT2")) {
-            info->title = ID3_frame_grab_data(frame);
+            info->title = ID3_frame_data(frame);
         } else if (FRAME_ID_EQUAL("TPE1")) {
-            info->artist = ID3_frame_grab_data(frame);
+            info->artist = ID3_frame_data(frame);
         } else if (FRAME_ID_EQUAL("TALB")) {
-            info->album = ID3_frame_grab_data(frame);
+            info->album = ID3_frame_data(frame);
         } else if (FRAME_ID_EQUAL("TRCK")) {
-            info->track = ID3_frame_grab_data(frame);
+            info->track = ID3_frame_data(frame);
         } else if (FRAME_ID_EQUAL("TCON")) {
-            info->genre = ID3_frame_grab_data(frame);
+            info->genre = ID3_frame_data(frame);
         } else if (FRAME_ID_EQUAL("TYER")) {
-            info->year = ID3_frame_grab_data(frame);
+            info->year = ID3_frame_data(frame);
         }
         ID3_frame_free(&frame);
     }
 
 #undef FRAME_ID_EQUAL
-/*
-    if (!info->title)  { info->title  = UNKNOWN; }
-    if (!info->artist) { info->artist = UNKNOWN; }
-    if (!info->album)  { info->album  = UNKNOWN; }
-    if (!info->track)  { info->track  = UNKNOWN; }
-    if (!info->genre)  { info->genre  = UNKNOWN; }
-    if (!info->year)   { info->year   = UNKNOWN; }
-*/
-
 
     ID3_close(&file);
     return info;

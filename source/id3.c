@@ -51,7 +51,11 @@ ID3_header* ID3_header_read(FILE *file) {
     // read ID3_HEADER_SIZE bytes header from file
     uint8_t buffer[ID3_HEADER_SIZE];
     memset(buffer, 0, sizeof(uint8_t)*ID3_HEADER_SIZE);
-    fread(&buffer, sizeof(uint8_t), ID3_HEADER_SIZE, file);
+    size_t bytes_read = fread(&buffer, sizeof(uint8_t), ID3_HEADER_SIZE, file);
+
+    if (bytes_read != 10) {
+        return NULL;
+    }
 
     // make sure its a ID3 file
     if (buffer[0] != 'I' || buffer[1] != 'D' || buffer[2] != '3') {
@@ -114,15 +118,13 @@ char* ID3_frame_id(ID3_frame *id3_frame) {
 
 char* ID3_frame_data(ID3_frame *id3_frame) {
     assert(id3_frame != NULL);
-    return id3_frame->id;
-}
-
-char* ID3_frame_grab_data(ID3_frame *id3_frame) {
-    assert(id3_frame != NULL);
-    char* data = id3_frame->data;
-    id3_frame->data = NULL;
+    //return id3_frame->data;
+    size_t size = id3_frame->size;
+    char *data = malloc(sizeof(char)*size);
+    memcpy(data, id3_frame->data, size);
     return data;
 }
+
 
 ID3_frame* ID3_frame_read(FILE *file) {
     assert(file != NULL);
@@ -216,7 +218,7 @@ ID3_file* ID3_open(const char *filename) {
     id3_file->file = fopen(filename, "rb");
 
     if (id3_file->file == NULL) {
-        printf("Unable to open file: %s\n", filename);
+        //printf("Unable to open file: %s\n", filename);
         return NULL;
     }
     //assert(id3_file->file != NULL);
@@ -224,7 +226,7 @@ ID3_file* ID3_open(const char *filename) {
     id3_file->header = ID3_header_read(id3_file->file);
 
     if (id3_file->header == NULL) {
-        printf("Unable to read header\n");
+        //printf("Unable to read header\n");
         ID3_file_free(&id3_file);
         return NULL;
     }

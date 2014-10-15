@@ -51,20 +51,12 @@ void        ID3_frame_free(ID3_frame **id3_frame);
 char*       ID3_frame_id(ID3_frame *id3_frame);
 /**
  * @brief Get data from ID3 frame
+ * caller is responsible for deallocating the returned data
  *
  * @param *id3_frame Pointer to the ID3 frame
  * @return The frames data
  */
 char*       ID3_frame_data(ID3_frame *id3_frame);
-/**
- * @brief Grab the ID3 frames data
- *
- * Take the data from the ID3 frame, the frame will no longer have access to it and the caller is responsible for deallocating it.
- *
- * @param *id3_frame Pointer to the ID3 frame
- * @return The ID3 frames data
- */
-char*       ID3_frame_grab_data(ID3_frame *id3_frame);
 
 
 #endif // __ID3_H__
