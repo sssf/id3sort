@@ -1,0 +1,59 @@
+\hypertarget{id3__sort_8c}{\section{source/id3\-\_\-sort.c File Reference}
+\label{id3__sort_8c}\index{source/id3\-\_\-sort.\-c@{source/id3\-\_\-sort.\-c}}
+}
+{\ttfamily \#include \char`\"{}id3\-\_\-sort.\-h\char`\"{}}\\*
+{\ttfamily \#include $<$stdio.\-h$>$}\\*
+{\ttfamily \#include $<$stdbool.\-h$>$}\\*
+{\ttfamily \#include \char`\"{}id3\-\_\-helper.\-h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}io.\-h\char`\"{}}\\*
+{\ttfamily \#include $<$assert.\-h$>$}\\*
+{\ttfamily \#include $<$string.\-h$>$}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+char $\ast$ \hyperlink{id3__sort_8c_ac62f9c4826aeecde70c0b709794b7bfe}{get\-\_\-filename} (char $\ast$filename)
+\item 
+bool \hyperlink{id3__sort_8c_ae8d13e3a5a595469b0204f179412221f}{sort\-\_\-file} (char $\ast$filename, char $\ast$target)
+\begin{DoxyCompactList}\small\item\em Sort the file according to its I\-D3 data. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{id3__sort_8c_ac62f9c4826aeecde70c0b709794b7bfe}{\index{id3\-\_\-sort.\-c@{id3\-\_\-sort.\-c}!get\-\_\-filename@{get\-\_\-filename}}
+\index{get\-\_\-filename@{get\-\_\-filename}!id3_sort.c@{id3\-\_\-sort.\-c}}
+\subsubsection[{get\-\_\-filename}]{\setlength{\rightskip}{0pt plus 5cm}char$\ast$ get\-\_\-filename (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{filename}
+\end{DoxyParamCaption}
+)}}\label{id3__sort_8c_ac62f9c4826aeecde70c0b709794b7bfe}
+
+
+Definition at line 12 of file id3\-\_\-sort.\-c.
+
+\hypertarget{id3__sort_8c_ae8d13e3a5a595469b0204f179412221f}{\index{id3\-\_\-sort.\-c@{id3\-\_\-sort.\-c}!sort\-\_\-file@{sort\-\_\-file}}
+\index{sort\-\_\-file@{sort\-\_\-file}!id3_sort.c@{id3\-\_\-sort.\-c}}
+\subsubsection[{sort\-\_\-file}]{\setlength{\rightskip}{0pt plus 5cm}bool sort\-\_\-file (
+\begin{DoxyParamCaption}
+\item[{char $\ast$}]{filename, }
+\item[{char $\ast$}]{target}
+\end{DoxyParamCaption}
+)}}\label{id3__sort_8c_ae8d13e3a5a595469b0204f179412221f}
+
+
+Sort the file according to its I\-D3 data. 
+
+Read the files I\-D3 data and move it to the following path\-: \char`\"{}target/artist/album/title.\-mp3\char`\"{}. If no I\-D3 data for artist could be found artist will be \char`\"{}unknown\char`\"{} If album is missing, it will be ignored ex\-: \char`\"{}target/artist/title.\-mp3\char`\"{} If title is missing, the name of the file being processed will be used instead. Target directory must exist.
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$filename} & Path to the file being sorted \\
+\hline
+{\em $\ast$target} & Path to directory to sort the file into \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if file could be sorted, false otherwise 
+\end{DoxyReturn}
+
+
+Definition at line 21 of file id3\-\_\-sort.\-c.
+

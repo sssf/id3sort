@@ -1,0 +1,225 @@
+\hypertarget{io_8c}{\section{source/io.c File Reference}
+\label{io_8c}\index{source/io.\-c@{source/io.\-c}}
+}
+{\ttfamily \#include \char`\"{}io.\-h\char`\"{}}\\*
+{\ttfamily \#include $<$stdio.\-h$>$}\\*
+{\ttfamily \#include $<$stdlib.\-h$>$}\\*
+{\ttfamily \#include $<$dirent.\-h$>$}\\*
+{\ttfamily \#include $<$sys/stat.\-h$>$}\\*
+{\ttfamily \#include $<$unistd.\-h$>$}\\*
+{\ttfamily \#include $<$assert.\-h$>$}\\*
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{io_8c_a379649be20afa31106ce5507b1b6beba}{I\-O\-\_\-directory\-\_\-exist} (const char $\ast$directory)
+\begin{DoxyCompactList}\small\item\em Check if directory exists. \end{DoxyCompactList}\item 
+bool \hyperlink{io_8c_a05be6f7ab2e06af72cee6dfaeecfe1a1}{I\-O\-\_\-directory\-\_\-create} (const char $\ast$directory)
+\begin{DoxyCompactList}\small\item\em Create a new directory. \end{DoxyCompactList}\item 
+bool \hyperlink{io_8c_ab0fcdcb44598a11f1527a1618e332fb3}{I\-O\-\_\-directory\-\_\-remove} (const char $\ast$directory)
+\begin{DoxyCompactList}\small\item\em Remove a directory. \end{DoxyCompactList}\item 
+size\-\_\-t \hyperlink{io_8c_ae928e3e8bdf75729da884505bc399d31}{I\-O\-\_\-file\-\_\-size} (const char $\ast$filename)
+\begin{DoxyCompactList}\small\item\em Get size of file in bytes. \end{DoxyCompactList}\item 
+bool \hyperlink{io_8c_adc7d405c68d4799db74d84f5a900bb64}{I\-O\-\_\-file\-\_\-exist} (const char $\ast$filename)
+\begin{DoxyCompactList}\small\item\em Check if file exists. \end{DoxyCompactList}\item 
+bool \hyperlink{io_8c_ade6458eac405703f44b3c798862d11da}{I\-O\-\_\-file\-\_\-copy} (const char $\ast$source, const char $\ast$destination)
+\begin{DoxyCompactList}\small\item\em Copy file from source to destination. \end{DoxyCompactList}\item 
+bool \hyperlink{io_8c_ab079d46a5743e11ef863d0b2fc48d22a}{I\-O\-\_\-file\-\_\-move} (const char $\ast$source, const char $\ast$destination)
+\begin{DoxyCompactList}\small\item\em Move file from source to destination. \end{DoxyCompactList}\item 
+bool \hyperlink{io_8c_a0ed7ca474eccc19d8b94c5ab5fb23f4a}{I\-O\-\_\-file\-\_\-remove} (const char $\ast$filename)
+\begin{DoxyCompactList}\small\item\em Remove file. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{io_8c_a05be6f7ab2e06af72cee6dfaeecfe1a1}{\index{io.\-c@{io.\-c}!I\-O\-\_\-directory\-\_\-create@{I\-O\-\_\-directory\-\_\-create}}
+\index{I\-O\-\_\-directory\-\_\-create@{I\-O\-\_\-directory\-\_\-create}!io.c@{io.\-c}}
+\subsubsection[{I\-O\-\_\-directory\-\_\-create}]{\setlength{\rightskip}{0pt plus 5cm}bool I\-O\-\_\-directory\-\_\-create (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{directory}
+\end{DoxyParamCaption}
+)}}\label{io_8c_a05be6f7ab2e06af72cee6dfaeecfe1a1}
+
+
+Create a new directory. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em directory} & Path to the directory \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if directory could be created, false otherwise 
+\end{DoxyReturn}
+
+
+Definition at line 19 of file io.\-c.
+
+\hypertarget{io_8c_a379649be20afa31106ce5507b1b6beba}{\index{io.\-c@{io.\-c}!I\-O\-\_\-directory\-\_\-exist@{I\-O\-\_\-directory\-\_\-exist}}
+\index{I\-O\-\_\-directory\-\_\-exist@{I\-O\-\_\-directory\-\_\-exist}!io.c@{io.\-c}}
+\subsubsection[{I\-O\-\_\-directory\-\_\-exist}]{\setlength{\rightskip}{0pt plus 5cm}bool I\-O\-\_\-directory\-\_\-exist (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{directory}
+\end{DoxyParamCaption}
+)}}\label{io_8c_a379649be20afa31106ce5507b1b6beba}
+
+
+Check if directory exists. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em directory} & Path to the directory \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if directory exist, false otherwise 
+\end{DoxyReturn}
+
+
+Definition at line 9 of file io.\-c.
+
+\hypertarget{io_8c_ab0fcdcb44598a11f1527a1618e332fb3}{\index{io.\-c@{io.\-c}!I\-O\-\_\-directory\-\_\-remove@{I\-O\-\_\-directory\-\_\-remove}}
+\index{I\-O\-\_\-directory\-\_\-remove@{I\-O\-\_\-directory\-\_\-remove}!io.c@{io.\-c}}
+\subsubsection[{I\-O\-\_\-directory\-\_\-remove}]{\setlength{\rightskip}{0pt plus 5cm}bool I\-O\-\_\-directory\-\_\-remove (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{directory}
+\end{DoxyParamCaption}
+)}}\label{io_8c_ab0fcdcb44598a11f1527a1618e332fb3}
+
+
+Remove a directory. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em directory} & Path to the directory \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if directory could be removed, false otherwise 
+\end{DoxyReturn}
+
+
+Definition at line 27 of file io.\-c.
+
+\hypertarget{io_8c_ade6458eac405703f44b3c798862d11da}{\index{io.\-c@{io.\-c}!I\-O\-\_\-file\-\_\-copy@{I\-O\-\_\-file\-\_\-copy}}
+\index{I\-O\-\_\-file\-\_\-copy@{I\-O\-\_\-file\-\_\-copy}!io.c@{io.\-c}}
+\subsubsection[{I\-O\-\_\-file\-\_\-copy}]{\setlength{\rightskip}{0pt plus 5cm}bool I\-O\-\_\-file\-\_\-copy (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{source, }
+\item[{const char $\ast$}]{destination}
+\end{DoxyParamCaption}
+)}}\label{io_8c_ade6458eac405703f44b3c798862d11da}
+
+
+Copy file from source to destination. 
+
+\begin{DoxyWarning}{Warning}
+This function has not been implemented yet
+\end{DoxyWarning}
+
+\begin{DoxyParams}{Parameters}
+{\em source} & Path to the file to be copied \\
+\hline
+{\em destination} & Path to copy to. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if file could be copied, false otherwise 
+\end{DoxyReturn}
+
+
+Definition at line 59 of file io.\-c.
+
+\hypertarget{io_8c_adc7d405c68d4799db74d84f5a900bb64}{\index{io.\-c@{io.\-c}!I\-O\-\_\-file\-\_\-exist@{I\-O\-\_\-file\-\_\-exist}}
+\index{I\-O\-\_\-file\-\_\-exist@{I\-O\-\_\-file\-\_\-exist}!io.c@{io.\-c}}
+\subsubsection[{I\-O\-\_\-file\-\_\-exist}]{\setlength{\rightskip}{0pt plus 5cm}bool I\-O\-\_\-file\-\_\-exist (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{filename}
+\end{DoxyParamCaption}
+)}}\label{io_8c_adc7d405c68d4799db74d84f5a900bb64}
+
+
+Check if file exists. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & Path to the file \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if file exist, false otherwise 
+\end{DoxyReturn}
+
+
+Definition at line 49 of file io.\-c.
+
+\hypertarget{io_8c_ab079d46a5743e11ef863d0b2fc48d22a}{\index{io.\-c@{io.\-c}!I\-O\-\_\-file\-\_\-move@{I\-O\-\_\-file\-\_\-move}}
+\index{I\-O\-\_\-file\-\_\-move@{I\-O\-\_\-file\-\_\-move}!io.c@{io.\-c}}
+\subsubsection[{I\-O\-\_\-file\-\_\-move}]{\setlength{\rightskip}{0pt plus 5cm}bool I\-O\-\_\-file\-\_\-move (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{source, }
+\item[{const char $\ast$}]{destination}
+\end{DoxyParamCaption}
+)}}\label{io_8c_ab079d46a5743e11ef863d0b2fc48d22a}
+
+
+Move file from source to destination. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em source} & Path to the file being moved \\
+\hline
+{\em destination} & Path where the file should be moved \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the file could be moved, false otherwise 
+\end{DoxyReturn}
+
+
+Definition at line 85 of file io.\-c.
+
+\hypertarget{io_8c_a0ed7ca474eccc19d8b94c5ab5fb23f4a}{\index{io.\-c@{io.\-c}!I\-O\-\_\-file\-\_\-remove@{I\-O\-\_\-file\-\_\-remove}}
+\index{I\-O\-\_\-file\-\_\-remove@{I\-O\-\_\-file\-\_\-remove}!io.c@{io.\-c}}
+\subsubsection[{I\-O\-\_\-file\-\_\-remove}]{\setlength{\rightskip}{0pt plus 5cm}bool I\-O\-\_\-file\-\_\-remove (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{filename}
+\end{DoxyParamCaption}
+)}}\label{io_8c_a0ed7ca474eccc19d8b94c5ab5fb23f4a}
+
+
+Remove file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & Path to the file to be removed \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool if file could be removed, false otherwise 
+\end{DoxyReturn}
+
+
+Definition at line 93 of file io.\-c.
+
+\hypertarget{io_8c_ae928e3e8bdf75729da884505bc399d31}{\index{io.\-c@{io.\-c}!I\-O\-\_\-file\-\_\-size@{I\-O\-\_\-file\-\_\-size}}
+\index{I\-O\-\_\-file\-\_\-size@{I\-O\-\_\-file\-\_\-size}!io.c@{io.\-c}}
+\subsubsection[{I\-O\-\_\-file\-\_\-size}]{\setlength{\rightskip}{0pt plus 5cm}size\-\_\-t I\-O\-\_\-file\-\_\-size (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{filename}
+\end{DoxyParamCaption}
+)}}\label{io_8c_ae928e3e8bdf75729da884505bc399d31}
+
+
+Get size of file in bytes. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & Path to the file \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+size of the file in bytes, -\/1 if file doesn't exist or couldn't be opened 
+\end{DoxyReturn}
+
+
+Definition at line 36 of file io.\-c.
+

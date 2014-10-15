@@ -1,0 +1,91 @@
+.TH "source/id3_helper.h" 3 "Wed Oct 15 2014" "Version 1.0" "ID3 Sort" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+source/id3_helper.h \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Data Structures"
+
+.in +1c
+.ti -1c
+.RI "struct \fBID3_info\fP"
+.br
+.in -1c
+.SS "Typedefs"
+
+.in +1c
+.ti -1c
+.RI "typedef struct \fBID3_info\fP \fBID3_info\fP"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBID3_info\fP * \fBID3_info_read\fP (const char *filename)"
+.br
+.RI "\fIRead basic text frames from file\&. \fP"
+.ti -1c
+.RI "void \fBID3_info_free\fP (\fBID3_info\fP **id3_info)"
+.br
+.RI "\fIDeallocate a \fBID3_info\fP struct\&. \fP"
+.ti -1c
+.RI "void \fBID3_info_print\fP (\fBID3_info\fP *id3_info)"
+.br
+.RI "\fIPrint \fBID3_info\fP struct\&. \fP"
+.in -1c
+.SH "Typedef Documentation"
+.PP 
+.SS "typedef struct \fBID3_info\fP  \fBID3_info\fP"
+
+.SH "Function Documentation"
+.PP 
+.SS "void ID3_info_free (\fBID3_info\fP **id3_info)"
+
+.PP
+Deallocate a \fBID3_info\fP struct\&. Deallocate the \fBID3_info\fP pointed to be the Double-pointer and set it to NULL
+.PP
+\fBParameters:\fP
+.RS 4
+\fI**id3_info\fP Double-pointer to the \fBID3_info\fP struct to remove 
+.RE
+.PP
+
+.PP
+Definition at line 18 of file id3_helper\&.c\&.
+.SS "void ID3_info_print (\fBID3_info\fP *id3_info)"
+
+.PP
+Print \fBID3_info\fP struct\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI*id3_info\fP \fBID3_info\fP struct to print 
+.RE
+.PP
+
+.PP
+Definition at line 81 of file id3_helper\&.c\&.
+.SS "\fBID3_info\fP* ID3_info_read (const char *filename)"
+
+.PP
+Read basic text frames from file\&. Read title, artist, album, track, genre and year from ID3 file\&. Missing fields will be set to NULL\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI*filename\fP Path to the file 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+\fBID3_info\fP struct containing the basic data 
+.RE
+.PP
+
+.PP
+Definition at line 33 of file id3_helper\&.c\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for ID3 Sort from the source code\&.

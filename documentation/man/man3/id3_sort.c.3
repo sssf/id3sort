@@ -1,0 +1,63 @@
+.TH "source/id3_sort.c" 3 "Wed Oct 15 2014" "Version 1.0" "ID3 Sort" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+source/id3_sort.c \- 
+.SH SYNOPSIS
+.br
+.PP
+\fC#include 'id3_sort\&.h'\fP
+.br
+\fC#include <stdio\&.h>\fP
+.br
+\fC#include <stdbool\&.h>\fP
+.br
+\fC#include 'id3_helper\&.h'\fP
+.br
+\fC#include 'io\&.h'\fP
+.br
+\fC#include <assert\&.h>\fP
+.br
+\fC#include <string\&.h>\fP
+.br
+
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "char * \fBget_filename\fP (char *filename)"
+.br
+.ti -1c
+.RI "bool \fBsort_file\fP (char *filename, char *target)"
+.br
+.RI "\fISort the file according to its ID3 data\&. \fP"
+.in -1c
+.SH "Function Documentation"
+.PP 
+.SS "char* get_filename (char *filename)"
+
+.PP
+Definition at line 12 of file id3_sort\&.c\&.
+.SS "bool sort_file (char *filename, char *target)"
+
+.PP
+Sort the file according to its ID3 data\&. Read the files ID3 data and move it to the following path: 'target/artist/album/title\&.mp3'\&. If no ID3 data for artist could be found artist will be 'unknown' If album is missing, it will be ignored ex: 'target/artist/title\&.mp3' If title is missing, the name of the file being processed will be used instead\&. Target directory must exist\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI*filename\fP Path to the file being sorted 
+.br
+\fI*target\fP Path to directory to sort the file into 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+true if file could be sorted, false otherwise 
+.RE
+.PP
+
+.PP
+Definition at line 21 of file id3_sort\&.c\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for ID3 Sort from the source code\&.

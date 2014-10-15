@@ -1,0 +1,181 @@
+.TH "source/id3.h" 3 "Wed Oct 15 2014" "Version 1.0" "ID3 Sort" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+source/id3.h \- 
+.SH SYNOPSIS
+.br
+.PP
+.SS "Typedefs"
+
+.in +1c
+.ti -1c
+.RI "typedef struct \fBID3_file\fP \fBID3_file\fP"
+.br
+.ti -1c
+.RI "typedef struct \fBID3_frame\fP \fBID3_frame\fP"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "\fBID3_file\fP * \fBID3_open\fP (const char *filename)"
+.br
+.RI "\fIOpen a ID3 file\&. \fP"
+.ti -1c
+.RI "void \fBID3_close\fP (\fBID3_file\fP **id3_file)"
+.br
+.RI "\fIClose a ID3 file\&. \fP"
+.ti -1c
+.RI "\fBID3_frame\fP * \fBID3_read\fP (\fBID3_file\fP *id3_file)"
+.br
+.RI "\fIRead a frame from the ID3 file\&. \fP"
+.ti -1c
+.RI "void \fBID3_frame_free\fP (\fBID3_frame\fP **id3_frame)"
+.br
+.RI "\fIDeallocate a \fBID3_frame\fP\&. \fP"
+.ti -1c
+.RI "char * \fBID3_frame_id\fP (\fBID3_frame\fP *id3_frame)"
+.br
+.RI "\fIGet id from ID3 frame\&. \fP"
+.ti -1c
+.RI "char * \fBID3_frame_data\fP (\fBID3_frame\fP *id3_frame)"
+.br
+.RI "\fIGet data from ID3 frame\&. \fP"
+.ti -1c
+.RI "char * \fBID3_frame_grab_data\fP (\fBID3_frame\fP *id3_frame)"
+.br
+.RI "\fIGrab the ID3 frames data\&. \fP"
+.in -1c
+.SH "Typedef Documentation"
+.PP 
+.SS "typedef struct \fBID3_file\fP \fBID3_file\fP"
+
+.PP
+Definition at line 7 of file id3\&.h\&.
+.SS "typedef struct \fBID3_frame\fP \fBID3_frame\fP"
+
+.PP
+Definition at line 8 of file id3\&.h\&.
+.SH "Function Documentation"
+.PP 
+.SS "void ID3_close (\fBID3_file\fP **id3_file)"
+
+.PP
+Close a ID3 file\&. Close the ID3 file pointed to be the Double-pointer and set it to NULL
+.PP
+\fBParameters:\fP
+.RS 4
+\fI**id3_file\fP Double-pointer to a \fBID3_file\fP 
+.RE
+.PP
+
+.PP
+Definition at line 237 of file id3\&.c\&.
+.SS "char* ID3_frame_data (\fBID3_frame\fP *id3_frame)"
+
+.PP
+Get data from ID3 frame\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI*id3_frame\fP Pointer to the ID3 frame 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The frames data 
+.RE
+.PP
+
+.PP
+Definition at line 115 of file id3\&.c\&.
+.SS "void ID3_frame_free (\fBID3_frame\fP **id3_frame)"
+
+.PP
+Deallocate a \fBID3_frame\fP\&. Close the ID3 frame pointed to be the Double-pointer and set it to NULL
+.PP
+\fBParameters:\fP
+.RS 4
+\fI**id3_frame\fP Double-pointer to the frame to deallocate 
+.RE
+.PP
+
+.PP
+Definition at line 99 of file id3\&.c\&.
+.SS "char* ID3_frame_grab_data (\fBID3_frame\fP *id3_frame)"
+
+.PP
+Grab the ID3 frames data\&. Take the data from the ID3 frame, the frame will no longer have access to it and the caller is responsible for deallocating it\&.
+.PP
+\fBParameters:\fP
+.RS 4
+\fI*id3_frame\fP Pointer to the ID3 frame 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+The ID3 frames data 
+.RE
+.PP
+
+.PP
+Definition at line 120 of file id3\&.c\&.
+.SS "char* ID3_frame_id (\fBID3_frame\fP *id3_frame)"
+
+.PP
+Get id from ID3 frame\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fI*id3_frame\fP Pointer to the ID3 frame 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+A string containing the frames id 
+.RE
+.PP
+
+.PP
+Definition at line 110 of file id3\&.c\&.
+.SS "\fBID3_file\fP* ID3_open (const char *filename)"
+
+.PP
+Open a ID3 file\&. The caller is responsible for closing the ID3 file using the ID3_close function
+.PP
+\fBParameters:\fP
+.RS 4
+\fI*filename\fP Path to the file 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+\fBID3_file\fP pointer if the file could be opened and holds ID3 data, NULL otherwise 
+.RE
+.PP
+
+.PP
+Definition at line 208 of file id3\&.c\&.
+.SS "\fBID3_frame\fP* ID3_read (\fBID3_file\fP *id3_file)"
+
+.PP
+Read a frame from the ID3 file\&. The caller is responsible for deallocating the ID3 frame using the ID3_frame_free function
+.PP
+\fBParameters:\fP
+.RS 4
+\fI*id3_file\fP Pointer to the ID3 file to read from 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+\fBID3_frame\fP countaining the data read from the frame, NULL if no frame could be read 
+.RE
+.PP
+
+.PP
+Definition at line 250 of file id3\&.c\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for ID3 Sort from the source code\&.

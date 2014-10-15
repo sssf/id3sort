@@ -1,0 +1,212 @@
+\hypertarget{id3_8h}{\section{source/id3.h File Reference}
+\label{id3_8h}\index{source/id3.\-h@{source/id3.\-h}}
+}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \hyperlink{structID3__file}{I\-D3\-\_\-file} \hyperlink{id3_8h_a578a1b41ee4f29e5373c31f885f134b3}{I\-D3\-\_\-file}
+\item 
+typedef struct \hyperlink{structID3__frame}{I\-D3\-\_\-frame} \hyperlink{id3_8h_a442d0052d280dcc9c4faf9e5fa18ab56}{I\-D3\-\_\-frame}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{structID3__file}{I\-D3\-\_\-file} $\ast$ \hyperlink{id3_8h_afa89a2dc98c22a176220c50ffe0ce357}{I\-D3\-\_\-open} (const char $\ast$filename)
+\begin{DoxyCompactList}\small\item\em Open a I\-D3 file. \end{DoxyCompactList}\item 
+void \hyperlink{id3_8h_aa1c4af149c9b0817ef26b13d6ef51548}{I\-D3\-\_\-close} (\hyperlink{structID3__file}{I\-D3\-\_\-file} $\ast$$\ast$id3\-\_\-file)
+\begin{DoxyCompactList}\small\item\em Close a I\-D3 file. \end{DoxyCompactList}\item 
+\hyperlink{structID3__frame}{I\-D3\-\_\-frame} $\ast$ \hyperlink{id3_8h_accab455fc4eee17efee06db5cb948e7d}{I\-D3\-\_\-read} (\hyperlink{structID3__file}{I\-D3\-\_\-file} $\ast$id3\-\_\-file)
+\begin{DoxyCompactList}\small\item\em Read a frame from the I\-D3 file. \end{DoxyCompactList}\item 
+void \hyperlink{id3_8h_a7b0b0793c2b197a8494b7c648d021b7c}{I\-D3\-\_\-frame\-\_\-free} (\hyperlink{structID3__frame}{I\-D3\-\_\-frame} $\ast$$\ast$id3\-\_\-frame)
+\begin{DoxyCompactList}\small\item\em Deallocate a \hyperlink{structID3__frame}{I\-D3\-\_\-frame}. \end{DoxyCompactList}\item 
+char $\ast$ \hyperlink{id3_8h_abe0e6d07e2cddcc67bf96a00ed5195cf}{I\-D3\-\_\-frame\-\_\-id} (\hyperlink{structID3__frame}{I\-D3\-\_\-frame} $\ast$id3\-\_\-frame)
+\begin{DoxyCompactList}\small\item\em Get id from I\-D3 frame. \end{DoxyCompactList}\item 
+char $\ast$ \hyperlink{id3_8h_a59c6ba64376aa822d081e85d8ca37608}{I\-D3\-\_\-frame\-\_\-data} (\hyperlink{structID3__frame}{I\-D3\-\_\-frame} $\ast$id3\-\_\-frame)
+\begin{DoxyCompactList}\small\item\em Get data from I\-D3 frame. \end{DoxyCompactList}\item 
+char $\ast$ \hyperlink{id3_8h_a3d35295d29784959686fa43e33b21ba4}{I\-D3\-\_\-frame\-\_\-grab\-\_\-data} (\hyperlink{structID3__frame}{I\-D3\-\_\-frame} $\ast$id3\-\_\-frame)
+\begin{DoxyCompactList}\small\item\em Grab the I\-D3 frames data. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Typedef Documentation}
+\hypertarget{id3_8h_a578a1b41ee4f29e5373c31f885f134b3}{\index{id3.\-h@{id3.\-h}!I\-D3\-\_\-file@{I\-D3\-\_\-file}}
+\index{I\-D3\-\_\-file@{I\-D3\-\_\-file}!id3.h@{id3.\-h}}
+\subsubsection[{I\-D3\-\_\-file}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf I\-D3\-\_\-file} {\bf I\-D3\-\_\-file}}}\label{id3_8h_a578a1b41ee4f29e5373c31f885f134b3}
+
+
+Definition at line 7 of file id3.\-h.
+
+\hypertarget{id3_8h_a442d0052d280dcc9c4faf9e5fa18ab56}{\index{id3.\-h@{id3.\-h}!I\-D3\-\_\-frame@{I\-D3\-\_\-frame}}
+\index{I\-D3\-\_\-frame@{I\-D3\-\_\-frame}!id3.h@{id3.\-h}}
+\subsubsection[{I\-D3\-\_\-frame}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf I\-D3\-\_\-frame} {\bf I\-D3\-\_\-frame}}}\label{id3_8h_a442d0052d280dcc9c4faf9e5fa18ab56}
+
+
+Definition at line 8 of file id3.\-h.
+
+
+
+\subsection{Function Documentation}
+\hypertarget{id3_8h_aa1c4af149c9b0817ef26b13d6ef51548}{\index{id3.\-h@{id3.\-h}!I\-D3\-\_\-close@{I\-D3\-\_\-close}}
+\index{I\-D3\-\_\-close@{I\-D3\-\_\-close}!id3.h@{id3.\-h}}
+\subsubsection[{I\-D3\-\_\-close}]{\setlength{\rightskip}{0pt plus 5cm}void I\-D3\-\_\-close (
+\begin{DoxyParamCaption}
+\item[{{\bf I\-D3\-\_\-file} $\ast$$\ast$}]{id3\-\_\-file}
+\end{DoxyParamCaption}
+)}}\label{id3_8h_aa1c4af149c9b0817ef26b13d6ef51548}
+
+
+Close a I\-D3 file. 
+
+Close the I\-D3 file pointed to be the Double-\/pointer and set it to N\-U\-L\-L
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$$\ast$id3\-\_\-file} & Double-\/pointer to a \hyperlink{structID3__file}{I\-D3\-\_\-file} \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 237 of file id3.\-c.
+
+\hypertarget{id3_8h_a59c6ba64376aa822d081e85d8ca37608}{\index{id3.\-h@{id3.\-h}!I\-D3\-\_\-frame\-\_\-data@{I\-D3\-\_\-frame\-\_\-data}}
+\index{I\-D3\-\_\-frame\-\_\-data@{I\-D3\-\_\-frame\-\_\-data}!id3.h@{id3.\-h}}
+\subsubsection[{I\-D3\-\_\-frame\-\_\-data}]{\setlength{\rightskip}{0pt plus 5cm}char$\ast$ I\-D3\-\_\-frame\-\_\-data (
+\begin{DoxyParamCaption}
+\item[{{\bf I\-D3\-\_\-frame} $\ast$}]{id3\-\_\-frame}
+\end{DoxyParamCaption}
+)}}\label{id3_8h_a59c6ba64376aa822d081e85d8ca37608}
+
+
+Get data from I\-D3 frame. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$id3\-\_\-frame} & Pointer to the I\-D3 frame \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The frames data 
+\end{DoxyReturn}
+
+
+Definition at line 115 of file id3.\-c.
+
+\hypertarget{id3_8h_a7b0b0793c2b197a8494b7c648d021b7c}{\index{id3.\-h@{id3.\-h}!I\-D3\-\_\-frame\-\_\-free@{I\-D3\-\_\-frame\-\_\-free}}
+\index{I\-D3\-\_\-frame\-\_\-free@{I\-D3\-\_\-frame\-\_\-free}!id3.h@{id3.\-h}}
+\subsubsection[{I\-D3\-\_\-frame\-\_\-free}]{\setlength{\rightskip}{0pt plus 5cm}void I\-D3\-\_\-frame\-\_\-free (
+\begin{DoxyParamCaption}
+\item[{{\bf I\-D3\-\_\-frame} $\ast$$\ast$}]{id3\-\_\-frame}
+\end{DoxyParamCaption}
+)}}\label{id3_8h_a7b0b0793c2b197a8494b7c648d021b7c}
+
+
+Deallocate a \hyperlink{structID3__frame}{I\-D3\-\_\-frame}. 
+
+Close the I\-D3 frame pointed to be the Double-\/pointer and set it to N\-U\-L\-L
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$$\ast$id3\-\_\-frame} & Double-\/pointer to the frame to deallocate \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 99 of file id3.\-c.
+
+\hypertarget{id3_8h_a3d35295d29784959686fa43e33b21ba4}{\index{id3.\-h@{id3.\-h}!I\-D3\-\_\-frame\-\_\-grab\-\_\-data@{I\-D3\-\_\-frame\-\_\-grab\-\_\-data}}
+\index{I\-D3\-\_\-frame\-\_\-grab\-\_\-data@{I\-D3\-\_\-frame\-\_\-grab\-\_\-data}!id3.h@{id3.\-h}}
+\subsubsection[{I\-D3\-\_\-frame\-\_\-grab\-\_\-data}]{\setlength{\rightskip}{0pt plus 5cm}char$\ast$ I\-D3\-\_\-frame\-\_\-grab\-\_\-data (
+\begin{DoxyParamCaption}
+\item[{{\bf I\-D3\-\_\-frame} $\ast$}]{id3\-\_\-frame}
+\end{DoxyParamCaption}
+)}}\label{id3_8h_a3d35295d29784959686fa43e33b21ba4}
+
+
+Grab the I\-D3 frames data. 
+
+Take the data from the I\-D3 frame, the frame will no longer have access to it and the caller is responsible for deallocating it.
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$id3\-\_\-frame} & Pointer to the I\-D3 frame \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The I\-D3 frames data 
+\end{DoxyReturn}
+
+
+Definition at line 120 of file id3.\-c.
+
+\hypertarget{id3_8h_abe0e6d07e2cddcc67bf96a00ed5195cf}{\index{id3.\-h@{id3.\-h}!I\-D3\-\_\-frame\-\_\-id@{I\-D3\-\_\-frame\-\_\-id}}
+\index{I\-D3\-\_\-frame\-\_\-id@{I\-D3\-\_\-frame\-\_\-id}!id3.h@{id3.\-h}}
+\subsubsection[{I\-D3\-\_\-frame\-\_\-id}]{\setlength{\rightskip}{0pt plus 5cm}char$\ast$ I\-D3\-\_\-frame\-\_\-id (
+\begin{DoxyParamCaption}
+\item[{{\bf I\-D3\-\_\-frame} $\ast$}]{id3\-\_\-frame}
+\end{DoxyParamCaption}
+)}}\label{id3_8h_abe0e6d07e2cddcc67bf96a00ed5195cf}
+
+
+Get id from I\-D3 frame. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$id3\-\_\-frame} & Pointer to the I\-D3 frame \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A string containing the frames id 
+\end{DoxyReturn}
+
+
+Definition at line 110 of file id3.\-c.
+
+\hypertarget{id3_8h_afa89a2dc98c22a176220c50ffe0ce357}{\index{id3.\-h@{id3.\-h}!I\-D3\-\_\-open@{I\-D3\-\_\-open}}
+\index{I\-D3\-\_\-open@{I\-D3\-\_\-open}!id3.h@{id3.\-h}}
+\subsubsection[{I\-D3\-\_\-open}]{\setlength{\rightskip}{0pt plus 5cm}{\bf I\-D3\-\_\-file}$\ast$ I\-D3\-\_\-open (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{filename}
+\end{DoxyParamCaption}
+)}}\label{id3_8h_afa89a2dc98c22a176220c50ffe0ce357}
+
+
+Open a I\-D3 file. 
+
+The caller is responsible for closing the I\-D3 file using the I\-D3\-\_\-close function
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$filename} & Path to the file \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{structID3__file}{I\-D3\-\_\-file} pointer if the file could be opened and holds I\-D3 data, N\-U\-L\-L otherwise 
+\end{DoxyReturn}
+
+
+Definition at line 208 of file id3.\-c.
+
+\hypertarget{id3_8h_accab455fc4eee17efee06db5cb948e7d}{\index{id3.\-h@{id3.\-h}!I\-D3\-\_\-read@{I\-D3\-\_\-read}}
+\index{I\-D3\-\_\-read@{I\-D3\-\_\-read}!id3.h@{id3.\-h}}
+\subsubsection[{I\-D3\-\_\-read}]{\setlength{\rightskip}{0pt plus 5cm}{\bf I\-D3\-\_\-frame}$\ast$ I\-D3\-\_\-read (
+\begin{DoxyParamCaption}
+\item[{{\bf I\-D3\-\_\-file} $\ast$}]{id3\-\_\-file}
+\end{DoxyParamCaption}
+)}}\label{id3_8h_accab455fc4eee17efee06db5cb948e7d}
+
+
+Read a frame from the I\-D3 file. 
+
+The caller is responsible for deallocating the I\-D3 frame using the I\-D3\-\_\-frame\-\_\-free function
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$id3\-\_\-file} & Pointer to the I\-D3 file to read from \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{structID3__frame}{I\-D3\-\_\-frame} countaining the data read from the frame, N\-U\-L\-L if no frame could be read 
+\end{DoxyReturn}
+
+
+Definition at line 250 of file id3.\-c.
+

@@ -1,0 +1,98 @@
+\hypertarget{id3__helper_8h}{\section{source/id3\-\_\-helper.h File Reference}
+\label{id3__helper_8h}\index{source/id3\-\_\-helper.\-h@{source/id3\-\_\-helper.\-h}}
+}
+\subsection*{Data Structures}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structID3__info}{I\-D3\-\_\-info}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \hyperlink{structID3__info}{I\-D3\-\_\-info} \hyperlink{id3__helper_8h_a11b37caf6d2bb569e5a5250b82976a84}{I\-D3\-\_\-info}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{structID3__info}{I\-D3\-\_\-info} $\ast$ \hyperlink{id3__helper_8h_a582f149bd0b5056b5337ab2a2940ab76}{I\-D3\-\_\-info\-\_\-read} (const char $\ast$filename)
+\begin{DoxyCompactList}\small\item\em Read basic text frames from file. \end{DoxyCompactList}\item 
+void \hyperlink{id3__helper_8h_a94540b9d0339c093f8472bc94c7675d4}{I\-D3\-\_\-info\-\_\-free} (\hyperlink{structID3__info}{I\-D3\-\_\-info} $\ast$$\ast$id3\-\_\-info)
+\begin{DoxyCompactList}\small\item\em Deallocate a \hyperlink{structID3__info}{I\-D3\-\_\-info} struct. \end{DoxyCompactList}\item 
+void \hyperlink{id3__helper_8h_a4c5e71346e6886e6f4bbe5fc27e732f2}{I\-D3\-\_\-info\-\_\-print} (\hyperlink{structID3__info}{I\-D3\-\_\-info} $\ast$id3\-\_\-info)
+\begin{DoxyCompactList}\small\item\em Print \hyperlink{structID3__info}{I\-D3\-\_\-info} struct. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Typedef Documentation}
+\hypertarget{id3__helper_8h_a11b37caf6d2bb569e5a5250b82976a84}{\index{id3\-\_\-helper.\-h@{id3\-\_\-helper.\-h}!I\-D3\-\_\-info@{I\-D3\-\_\-info}}
+\index{I\-D3\-\_\-info@{I\-D3\-\_\-info}!id3_helper.h@{id3\-\_\-helper.\-h}}
+\subsubsection[{I\-D3\-\_\-info}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf I\-D3\-\_\-info}  {\bf I\-D3\-\_\-info}}}\label{id3__helper_8h_a11b37caf6d2bb569e5a5250b82976a84}
+
+
+\subsection{Function Documentation}
+\hypertarget{id3__helper_8h_a94540b9d0339c093f8472bc94c7675d4}{\index{id3\-\_\-helper.\-h@{id3\-\_\-helper.\-h}!I\-D3\-\_\-info\-\_\-free@{I\-D3\-\_\-info\-\_\-free}}
+\index{I\-D3\-\_\-info\-\_\-free@{I\-D3\-\_\-info\-\_\-free}!id3_helper.h@{id3\-\_\-helper.\-h}}
+\subsubsection[{I\-D3\-\_\-info\-\_\-free}]{\setlength{\rightskip}{0pt plus 5cm}void I\-D3\-\_\-info\-\_\-free (
+\begin{DoxyParamCaption}
+\item[{{\bf I\-D3\-\_\-info} $\ast$$\ast$}]{id3\-\_\-info}
+\end{DoxyParamCaption}
+)}}\label{id3__helper_8h_a94540b9d0339c093f8472bc94c7675d4}
+
+
+Deallocate a \hyperlink{structID3__info}{I\-D3\-\_\-info} struct. 
+
+Deallocate the \hyperlink{structID3__info}{I\-D3\-\_\-info} pointed to be the Double-\/pointer and set it to N\-U\-L\-L
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$$\ast$id3\-\_\-info} & Double-\/pointer to the \hyperlink{structID3__info}{I\-D3\-\_\-info} struct to remove \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 18 of file id3\-\_\-helper.\-c.
+
+\hypertarget{id3__helper_8h_a4c5e71346e6886e6f4bbe5fc27e732f2}{\index{id3\-\_\-helper.\-h@{id3\-\_\-helper.\-h}!I\-D3\-\_\-info\-\_\-print@{I\-D3\-\_\-info\-\_\-print}}
+\index{I\-D3\-\_\-info\-\_\-print@{I\-D3\-\_\-info\-\_\-print}!id3_helper.h@{id3\-\_\-helper.\-h}}
+\subsubsection[{I\-D3\-\_\-info\-\_\-print}]{\setlength{\rightskip}{0pt plus 5cm}void I\-D3\-\_\-info\-\_\-print (
+\begin{DoxyParamCaption}
+\item[{{\bf I\-D3\-\_\-info} $\ast$}]{id3\-\_\-info}
+\end{DoxyParamCaption}
+)}}\label{id3__helper_8h_a4c5e71346e6886e6f4bbe5fc27e732f2}
+
+
+Print \hyperlink{structID3__info}{I\-D3\-\_\-info} struct. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$id3\-\_\-info} & \hyperlink{structID3__info}{I\-D3\-\_\-info} struct to print \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 81 of file id3\-\_\-helper.\-c.
+
+\hypertarget{id3__helper_8h_a582f149bd0b5056b5337ab2a2940ab76}{\index{id3\-\_\-helper.\-h@{id3\-\_\-helper.\-h}!I\-D3\-\_\-info\-\_\-read@{I\-D3\-\_\-info\-\_\-read}}
+\index{I\-D3\-\_\-info\-\_\-read@{I\-D3\-\_\-info\-\_\-read}!id3_helper.h@{id3\-\_\-helper.\-h}}
+\subsubsection[{I\-D3\-\_\-info\-\_\-read}]{\setlength{\rightskip}{0pt plus 5cm}{\bf I\-D3\-\_\-info}$\ast$ I\-D3\-\_\-info\-\_\-read (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{filename}
+\end{DoxyParamCaption}
+)}}\label{id3__helper_8h_a582f149bd0b5056b5337ab2a2940ab76}
+
+
+Read basic text frames from file. 
+
+Read title, artist, album, track, genre and year from I\-D3 file. Missing fields will be set to N\-U\-L\-L.
+
+
+\begin{DoxyParams}{Parameters}
+{\em $\ast$filename} & Path to the file \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\hyperlink{structID3__info}{I\-D3\-\_\-info} struct containing the basic data 
+\end{DoxyReturn}
+
+
+Definition at line 33 of file id3\-\_\-helper.\-c.
+
