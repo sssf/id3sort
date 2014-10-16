@@ -14,7 +14,7 @@ main: main.o id3.o io.o id3_helper.o id3_sort.o
 	cp data/* bin/data/
 	$(COMPILER) $(LINK_FLAGS) $(TARGET) main.o id3.o io.o id3_helper.o id3_sort.o
 	./$(TARGET) bin/music bin/data/*.mp3
-	cp data/* bin/data/
+#	cp data/* bin/data/
 	#echo;
 	#tree bin/music
 
@@ -38,25 +38,36 @@ id3_sort.o: source/id3_sort.c source/id3_sort.h
 #	git pull; git commit; git push
 
 
-test_all: test_io test_id3 test_id3_helper
+test_all: test_io test_id3 test_id3_helper test_id3_sort
+	@echo;
+	@echo "ALL YOUR BASE ARE BELONING TO US";
 
 
-test_io: test/test_io.c source/io.c source/io.h
-	mkdir -p bin
-	$(COMPILER) $(LINK_FLAGS) bin/test_io source/io.c test/test_io.c -lcunit
-	./bin/test_io | sed $(TEST_PASS)  | sed $(TEST_FAIL)
+test_io: io.o source/io.h
+	@mkdir -p bin
+	@$(COMPILER) $(LINK_FLAGS) bin/test_io io.o test/test_io.c -lcunit
+	@./bin/test_io | sed $(TEST_PASS)  | sed $(TEST_FAIL)
 
 
-test_id3: test/test_id3.c source/id3.c source/id3.h
-	mkdir -p bin
-	$(COMPILER) $(LINK_FLAGS) bin/test_id3 source/id3.c test/test_id3.c -lcunit
-	./bin/test_id3 | sed $(TEST_PASS)  | sed $(TEST_FAIL)
+test_id3: id3.o test/test_id3.c
+	@mkdir -p bin
+	@$(COMPILER) $(LINK_FLAGS) bin/test_id3 id3.o test/test_id3.c -lcunit
+	@./bin/test_id3 | sed $(TEST_PASS)  | sed $(TEST_FAIL)
 
 
-test_id3_helper: test/test_id3_helper.c source/id3_helper.c source/id3_helper.h id3.o
-	mkdir -p bin
-	$(COMPILER) $(LINK_FLAGS) bin/test_id3_helper source/id3_helper.c test/test_id3_helper.c id3.o -lcunit
-	./bin/test_id3_helper | sed $(TEST_PASS)  | sed $(TEST_FAIL)
+test_id3_helper: id3.o id3_helper.o test/test_id3_helper.c
+	@mkdir -p bin
+	@$(COMPILER) $(LINK_FLAGS) bin/test_id3_helper id3.o id3_helper.o test/test_id3_helper.c -lcunit
+	@./bin/test_id3_helper | sed $(TEST_PASS)  | sed $(TEST_FAIL)
+
+test_id3_sort: id3_sort.o id3.o io.o id3_helper.o source/id3_sort.h
+	@mkdir -p bin/test_music
+	@rm -rf bin/test_music/*
+	@cp bin/test_data/music0.mp3  bin/test_data/file_has_all_frames.mp3
+	@cp bin/test_data/music39.mp3 bin/test_data/file_missing_album.mp3
+	@cp bin/test_data/music38.mp3 bin/test_data/file_missing_frames.mp3
+	@$(COMPILER) $(LINK_FLAGS) bin/test_id3_sort id3_sort.o id3.o io.o id3_helper.o test/test_id3_sort.c -lcunit
+	@./bin/test_id3_sort | sed $(TEST_PASS)  | sed $(TEST_FAIL)
 
 
 
@@ -74,4 +85,4 @@ clean:
 tar:
 	tar cfv source.tar source/*
 
-.PHONY: valgrind
+#.PHONY: valgrind

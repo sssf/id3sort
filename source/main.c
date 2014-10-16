@@ -22,7 +22,7 @@ int main(int argc, char *argv[]) {
     }
 
     for (int n = 2; n < argc; n++) {
-        sort_file(argv[n], target);
+        ID3_sort_file(argv[n], target);
     }
 
     // have to flush stdout otherwise the output of tree will be printed before everything else

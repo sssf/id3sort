@@ -21,7 +21,7 @@
  * @param *target   Path to directory to sort the file into
  * @return true if file could be sorted, false otherwise
  */
-bool sort_file(char *filename, char *target);
+bool ID3_sort_file(char *filename, char *target);
 
 
 #endif // __ID3_SORT_H__

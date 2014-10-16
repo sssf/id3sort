@@ -33,7 +33,7 @@ void ID3_info_free(ID3_info **id3_info) {
 ID3_info* ID3_info_read(const char *filename) {
     ID3_file *file = ID3_open(filename);
     if (file == NULL) {
-        printf("unable to open file: %s\n", filename);
+        //printf("unable to open file: %s\n", filename);
         return NULL;
     }
 

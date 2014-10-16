@@ -18,7 +18,7 @@ char* get_filename(char *filename) {
     return filename + at;
 }
 
-bool sort_file(char *filename, char *target) {
+bool ID3_sort_file(char *filename, char *target) {
     assert(filename && strlen(filename) > 0 && target);
 
     ID3_info *info = ID3_info_read(filename);
@@ -54,12 +54,12 @@ bool sort_file(char *filename, char *target) {
         strcat(path, get_filename(filename));
     }
 
-    printf("path: %s\nfilename: %s\n", path, filename);
+//    printf("path: %s\nfilename: %s\n", path, filename);
 
     IO_file_move(filename, path);
     ID3_info_free(&info);
 
-    return false;
+    return true;
 }
 
 
