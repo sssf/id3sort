@@ -1,0 +1,265 @@
+        -:    0:Source:source/id3.c
+        -:    0:Graph:id3.gcno
+        -:    0:Data:id3.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:#include "id3.h"
+        -:    2:
+        -:    3:#include <stdio.h>
+        -:    4:#include <stdlib.h>
+        -:    5:#include <string.h>
+        -:    6:#include <stdint.h>
+        -:    7:#include <assert.h>
+        -:    8:
+        -:    9:
+        -:   10:#define ID3_HEADER_SIZE 10
+        -:   11:#define ID3_FRAME_SIZE  10
+        -:   12:
+        -:   13:
+        -:   14:/**
+        -:   15: * ID3 size decode
+        -:   16:*/
+       15:   17:uint32_t ID3_size_decode(uint8_t *size_data) {
+       30:   18:    return (0x00000000 | (size_data[3] <<  0)
+       15:   19:                       | (size_data[2] <<  7)
+       15:   20:                       | (size_data[1] << 14)
+       15:   21:                       | (size_data[0] << 21));
+        -:   22:}
+        -:   23:
+        -:   24:/**
+        -:   25: * ID3 Header struct
+        -:   26:*/
+        -:   27:struct ID3_header {
+        -:   28:    char version[2];
+        -:   29:    char flags;
+        -:   30:    uint32_t size;
+        -:   31:};
+        -:   32:typedef struct ID3_header ID3_header;
+        -:   33:
+        6:   34:ID3_header* ID3_header_new() {
+        6:   35:    ID3_header *id3_header = (ID3_header*)malloc(sizeof(ID3_header));
+        6:   36:    assert(id3_header != NULL);
+        6:   37:    memset(id3_header, 0, sizeof(ID3_header));
+        6:   38:    return id3_header;
+        -:   39:}
+        -:   40:
+        6:   41:void ID3_header_free(ID3_header** header) {
+        6:   42:    assert(header && *header);
+        6:   43:    free(*header);
+        6:   44:    *header = NULL;
+        6:   45:}
+        -:   46:
+        7:   47:ID3_header* ID3_header_read(FILE *file) {
+        -:   48:
+        7:   49:    assert(file != NULL);
+        -:   50:
+        -:   51:    // read ID3_HEADER_SIZE bytes header from file
+        -:   52:    uint8_t buffer[ID3_HEADER_SIZE];
+        7:   53:    memset(buffer, 0, sizeof(uint8_t)*ID3_HEADER_SIZE);
+        7:   54:    size_t bytes_read = fread(&buffer, sizeof(uint8_t), ID3_HEADER_SIZE, file);
+        -:   55:
+        7:   56:    if (bytes_read != 10) {
+        1:   57:        return NULL;
+        -:   58:    }
+        -:   59:
+        -:   60:    // make sure its a ID3 file
+        6:   61:    if (buffer[0] != 'I' || buffer[1] != 'D' || buffer[2] != '3') {
+    #####:   62:        printf("No ID3 data found\n");
+    #####:   63:        return NULL;
+        -:   64:    }
+        -:   65:
+        -:   66:    // allocate header and make sure it's ok
+        6:   67:    ID3_header *header = ID3_header_new();
+        -:   68:
+        6:   69:    if (header == NULL) {
+    #####:   70:        printf("Unable to allocate memory for header\n");
+    #####:   71:        return NULL;
+        -:   72:    }
+        -:   73:
+        -:   74:    // store ID3 version and flags
+        6:   75:    header->version[0] = buffer[3];
+        6:   76:    header->version[1] = buffer[4];
+        6:   77:    header->flags = buffer[5];
+        -:   78:
+        -:   79:    // decode and store ID3 header size
+        6:   80:    header->size = ID3_size_decode(buffer+6);
+        -:   81:
+        6:   82:    return header;
+        -:   83:}
+        -:   84:
+        -:   85:/**
+        -:   86: * ID3 Frame struct
+        -:   87:*/
+        -:   88:struct ID3_frame {
+        -:   89:    char id[5];
+        -:   90:    int size;
+        -:   91:    char flags[2];
+        -:   92:    char encoding;
+        -:   93:    char *data;
+        -:   94:};
+        -:   95://typedef struct ID3_frame ID3_frame;
+        -:   96:
+        9:   97:ID3_frame* ID3_frame_new() {
+        9:   98:    ID3_frame *id3_frame = (ID3_frame*)malloc(sizeof(ID3_frame));
+        9:   99:    assert(id3_frame != NULL);
+        9:  100:    memset(id3_frame, 0, sizeof(ID3_frame));
+        9:  101:    return id3_frame;
+        -:  102:}
+        9:  103:void ID3_frame_free(ID3_frame** frame) {
+        9:  104:    assert(frame && *frame);
+        -:  105:    // only free frame->data if it exist
+        9:  106:    if ((*frame)->data) {
+        9:  107:        free((*frame)->data);
+        9:  108:        (*frame)->data = NULL;
+        -:  109:    }
+        9:  110:    free(*frame);
+        9:  111:    *frame = NULL;
+        9:  112:}
+        -:  113:
+       22:  114:char* ID3_frame_id(ID3_frame *id3_frame) {
+       22:  115:    assert(id3_frame != NULL);
+       22:  116:    return id3_frame->id;
+        -:  117:}
+        -:  118:
+        7:  119:char* ID3_frame_data(ID3_frame *id3_frame) {
+        7:  120:    assert(id3_frame != NULL);
+        -:  121:    //return id3_frame->data;
+        7:  122:    size_t size = id3_frame->size;
+        7:  123:    char *data = malloc(sizeof(char)*size);
+        7:  124:    memcpy(data, id3_frame->data, size);
+        7:  125:    return data;
+        -:  126:}
+        -:  127:
+        -:  128:
+       10:  129:ID3_frame* ID3_frame_read(FILE *file) {
+       10:  130:    assert(file != NULL);
+        -:  131:
+        -:  132:    // read ID3_FRAME_SIZE bytes frame header
+        -:  133:    uint8_t buffer[ID3_FRAME_SIZE];
+       10:  134:    memset(buffer, 0, sizeof(uint8_t)*ID3_FRAME_SIZE);
+       10:  135:    fread(&buffer, sizeof(uint8_t), ID3_FRAME_SIZE, file);
+        -:  136:
+        -:  137:    // make sure it's valid
+       10:  138:    if (buffer[0] == 0 || buffer[1] == 0 || buffer[2] == 0 || buffer[3] == 0) {
+        -:  139:        //printf("No frame found\n");
+        1:  140:        return NULL;
+        -:  141:    }
+        -:  142:
+        -:  143:    // allocate frame and make sure it's ok
+        9:  144:    ID3_frame *frame = ID3_frame_new();
+        -:  145:
+        9:  146:    if (frame == NULL) {
+    #####:  147:        printf("Unable to allocate memory for frame\n");
+    #####:  148:        return NULL;
+        -:  149:    }
+        -:  150:
+        -:  151:    // store frame identifier
+        9:  152:    frame->id[0] = buffer[0];
+        9:  153:    frame->id[1] = buffer[1];
+        9:  154:    frame->id[2] = buffer[2];
+        9:  155:    frame->id[3] = buffer[3];
+        9:  156:    frame->id[4] = '\0';
+        -:  157:
+        -:  158:
+        -:  159:    // decode and store frame size
+        9:  160:    frame->size = ID3_size_decode(buffer+4);
+        -:  161:
+        -:  162:    // store frame flags
+        9:  163:    frame->flags[0] = buffer[8];
+        9:  164:    frame->flags[1] = buffer[9];
+        -:  165:
+        9:  166:    if (frame->id[0] == 'T') {
+        -:  167:        // read text encoding and frame data
+        9:  168:        frame->encoding = fgetc(file);
+        9:  169:        frame->size--; // Skip encoding character
+        -:  170:    }
+        -:  171:
+        -:  172:    // allocate memory for frame data
+        9:  173:    frame->data = (char*)malloc(sizeof(char) * frame->size);
+        -:  174:
+        9:  175:    if (frame->data == NULL) {
+    #####:  176:        printf("Unable to allocate memory for frame data\n");
+    #####:  177:        ID3_frame_free(&frame);
+    #####:  178:        return NULL;
+        -:  179:    }
+        -:  180:
+        9:  181:    fread(frame->data, sizeof(char), frame->size, file);
+        -:  182:
+        9:  183:    return frame;
+        -:  184:}
+        -:  185:
+        -:  186:
+        -:  187:
+        -:  188:struct ID3_file {
+        -:  189:    FILE *file;
+        -:  190:    ID3_header *header;
+        -:  191:};
+        -:  192:
+        9:  193:ID3_file* ID3_file_new() {
+        9:  194:    ID3_file *id3_file = (ID3_file*)malloc(sizeof(ID3_file));
+        9:  195:    assert(id3_file != NULL);
+        9:  196:    memset(id3_file, 0, sizeof(ID3_file));
+        9:  197:    return id3_file;
+        -:  198:}
+        -:  199:
+        1:  200:void ID3_file_free(ID3_file **id3_file) {
+        1:  201:    assert(id3_file && *id3_file);
+        1:  202:    if ((*id3_file)->header) {
+        1:  203:        ID3_header_free(&(*id3_file)->header);
+        -:  204:    }
+        1:  205:    free(*id3_file);
+        1:  206:    *id3_file = NULL;
+        1:  207:}
+        -:  208:
+        -:  209:
+        9:  210:ID3_file* ID3_open(const char *filename) {
+        9:  211:    struct ID3_file *id3_file = ID3_file_new();
+        -:  212:
+        9:  213:    if (id3_file == NULL) {
+    #####:  214:        printf("Unable to allocate memory for ID3_file\n");
+    #####:  215:        return NULL;
+        -:  216:    }
+        -:  217:    //assert(id3_file != NULL);
+        9:  218:    id3_file->file = fopen(filename, "rb");
+        -:  219:
+        9:  220:    if (id3_file->file == NULL) {
+        -:  221:        //printf("Unable to open file: %s\n", filename);
+        2:  222:        return NULL;
+        -:  223:    }
+        -:  224:    //assert(id3_file->file != NULL);
+        -:  225:
+        7:  226:    id3_file->header = ID3_header_read(id3_file->file);
+        -:  227:
+        7:  228:    if (id3_file->header == NULL) {
+        -:  229:        //printf("Unable to read header\n");
+        1:  230:        ID3_file_free(&id3_file);
+        1:  231:        return NULL;
+        -:  232:    }
+        -:  233:
+        6:  234:    return id3_file;
+        -:  235:}
+        -:  236:
+        -:  237:
+        -:  238:// TODO: remove dublicated code ID3_file_free
+        6:  239:void ID3_close(ID3_file **id3_file) {
+        6:  240:    assert(id3_file != NULL && *id3_file != NULL);
+        -:  241:
+        6:  242:    fclose((*id3_file)->file);
+        6:  243:    (*id3_file)->file = NULL;
+        -:  244:
+        6:  245:    if ((*id3_file)->header != NULL) {
+        6:  246:        ID3_header_free(&(*id3_file)->header);
+        -:  247:    }
+        6:  248:    free(*id3_file);
+        6:  249:    *id3_file = NULL;
+        6:  250:}
+        -:  251:
+       10:  252:ID3_frame* ID3_read(ID3_file *id3_file) {
+       10:  253:    assert(id3_file != NULL);
+       10:  254:    return ID3_frame_read(id3_file->file);
+        -:  255:}
+        -:  256:
+        -:  257:
+        -:  258:
+        -:  259:
+        -:  260:

@@ -7,6 +7,12 @@
 
 
 
+// flags
+// -v --verbose
+// -t --tree
+// --no_move
+
+
 int main(int argc, char *argv[]) {
     // make sure we got proper amount of arguments
     if (argc < 3) {
@@ -20,6 +26,8 @@ int main(int argc, char *argv[]) {
         printf("directory does not exist: %s\n", target);
         return 1;
     }
+
+    uint32_t flags = ID3_parse_flags(arg)
 
     for (int n = 2; n < argc; n++) {
         ID3_sort_file(argv[n], target);

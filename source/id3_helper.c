@@ -68,7 +68,7 @@ ID3_info* ID3_info_read(const char *filename) {
 }
 
 
-
+/*
 void ID3_info_print(ID3_info *id3_info) {
     printf("============================================\n");
     printf("title:  %s\n", id3_info->title);
@@ -78,3 +78,4 @@ void ID3_info_print(ID3_info *id3_info) {
     printf("genre:  %s\n", id3_info->genre);
     printf("year:   %s\n", id3_info->year);
 }
+*/

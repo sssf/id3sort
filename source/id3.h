@@ -2,8 +2,6 @@
 #define __ID3_H__
 
 
-
-
 typedef struct ID3_file ID3_file;
 typedef struct ID3_frame ID3_frame;
 

@@ -100,6 +100,7 @@ ID3_frame* ID3_frame_new() {
     memset(id3_frame, 0, sizeof(ID3_frame));
     return id3_frame;
 }
+
 void ID3_frame_free(ID3_frame** frame) {
     assert(frame && *frame);
     // only free frame->data if it exist
