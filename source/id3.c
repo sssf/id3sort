@@ -1,3 +1,4 @@
+#include "remember.h"
 #include "id3.h"
 
 #include <stdio.h>
@@ -10,7 +11,6 @@
 #define ID3_HEADER_SIZE 10
 #define ID3_FRAME_SIZE  10
 
-
 /**
  * ID3 size decode
 */
@@ -21,6 +21,7 @@ uint32_t ID3_size_decode(uint8_t *size_data) {
                        | (size_data[0] << 21));
 }
 
+//================================================================================================
 /**
  * ID3 Header struct
 */
@@ -82,6 +83,7 @@ ID3_header* ID3_header_read(FILE *file) {
     return header;
 }
 
+//================================================================================================
 /**
  * ID3 Frame struct
 */
@@ -119,7 +121,7 @@ char* ID3_frame_id(ID3_frame *id3_frame) {
 
 char* ID3_frame_data(ID3_frame *id3_frame) {
     assert(id3_frame != NULL);
-    //return id3_frame->data;
+
     size_t size = id3_frame->size;
     char *data = malloc(sizeof(char)*size);
     memcpy(data, id3_frame->data, size);
@@ -186,6 +188,7 @@ ID3_frame* ID3_frame_read(FILE *file) {
 
 
 
+//================================================================================================
 struct ID3_file {
     FILE *file;
     ID3_header *header;

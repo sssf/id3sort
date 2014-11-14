@@ -1,0 +1,1422 @@
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95a0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95a0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 15 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 15 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95a0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95a0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95a0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95a0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab9520 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab92c0 file: source/id3.c function: ID3_close line: 252
+delete: 0xab9620 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab95c0 file: source/id3_helper.c function: ID3_info_free line: 24
+delete: 0xab9600 file: source/id3_helper.c function: ID3_info_free line: 25
+delete: 0xab9640 file: source/id3_helper.c function: ID3_info_free line: 26
+delete: 0xab9660 file: source/id3_helper.c function: ID3_info_free line: 27
+delete: 0xab95e0 file: source/id3_helper.c function: ID3_info_free line: 28
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 9 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 9 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 13 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 13 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 12 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 12 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab9660 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab95e0 file: source/id3.c function: ID3_close line: 252
+delete: 0xab9580 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab95c0 file: source/id3_helper.c function: ID3_info_free line: 24
+delete: 0xab9620 file: source/id3_helper.c function: ID3_info_free line: 25
+delete: 0xab95a0 file: source/id3_helper.c function: ID3_info_free line: 26
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 9 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 9 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 13 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 13 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 22 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 22 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab9620 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab95a0 file: source/id3.c function: ID3_close line: 252
+delete: 0xab9520 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab95e0 file: source/id3_helper.c function: ID3_info_free line: 24
+delete: 0xab9600 file: source/id3_helper.c function: ID3_info_free line: 25
+delete: 0xab9500 file: source/id3_helper.c function: ID3_info_free line: 26
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9520 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9520 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 15 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 15 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9520 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 19 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 19 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9520 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9520 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9520 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab9600 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab9500 file: source/id3.c function: ID3_close line: 252
+delete: 0xab9620 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab9580 file: source/id3_helper.c function: ID3_info_free line: 24
+delete: 0xab95c0 file: source/id3_helper.c function: ID3_info_free line: 25
+delete: 0xab9640 file: source/id3_helper.c function: ID3_info_free line: 26
+delete: 0xab9660 file: source/id3_helper.c function: ID3_info_free line: 27
+delete: 0xab95a0 file: source/id3_helper.c function: ID3_info_free line: 28
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 7 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 7 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 6 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 6 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab9660 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab95a0 file: source/id3.c function: ID3_close line: 252
+delete: 0xab9620 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab9580 file: source/id3_helper.c function: ID3_info_free line: 24
+delete: 0xab95e0 file: source/id3_helper.c function: ID3_info_free line: 25
+delete: 0xab9500 file: source/id3_helper.c function: ID3_info_free line: 26
+delete: 0xab9520 file: source/id3_helper.c function: ID3_info_free line: 27
+delete: 0xab9600 file: source/id3_helper.c function: ID3_info_free line: 28
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 9 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 9 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 49 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 49 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95a0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 39 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 39 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab96a0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab9520 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab9600 file: source/id3.c function: ID3_close line: 252
+delete: 0xab96d0 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab9580 file: source/id3_helper.c function: ID3_info_free line: 24
+delete: 0xab9640 file: source/id3_helper.c function: ID3_info_free line: 25
+delete: 0xab9620 file: source/id3_helper.c function: ID3_info_free line: 26
+delete: 0xab9680 file: source/id3_helper.c function: ID3_info_free line: 27
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab96a0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 12 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 12 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9520 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 6 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 6 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9520 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9520 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9520 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9520 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab9620 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab9680 file: source/id3.c function: ID3_close line: 252
+delete: 0xab95a0 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab9500 file: source/id3_helper.c function: ID3_info_free line: 24
+delete: 0xab95c0 file: source/id3_helper.c function: ID3_info_free line: 25
+delete: 0xab9600 file: source/id3_helper.c function: ID3_info_free line: 26
+delete: 0xab9700 file: source/id3_helper.c function: ID3_info_free line: 27
+delete: 0xab95e0 file: source/id3_helper.c function: ID3_info_free line: 28
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 9 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 9 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 13 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 13 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab9700 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab95e0 file: source/id3.c function: ID3_close line: 252
+delete: 0xab9520 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab9500 file: source/id3_helper.c function: ID3_info_free line: 24
+delete: 0xab95a0 file: source/id3_helper.c function: ID3_info_free line: 25
+delete: 0xab9580 file: source/id3_helper.c function: ID3_info_free line: 26
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9520 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9520 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 15 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 15 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9520 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 10 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 10 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9520 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9520 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9520 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab95a0 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab9580 file: source/id3.c function: ID3_close line: 252
+delete: 0xab9620 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab95c0 file: source/id3_helper.c function: ID3_info_free line: 24
+delete: 0xab9600 file: source/id3_helper.c function: ID3_info_free line: 25
+delete: 0xab9640 file: source/id3_helper.c function: ID3_info_free line: 26
+delete: 0xab9660 file: source/id3_helper.c function: ID3_info_free line: 27
+delete: 0xab95e0 file: source/id3_helper.c function: ID3_info_free line: 28
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 16 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 16 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 9 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 9 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 15 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 15 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 2 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 2 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab9660 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab95e0 file: source/id3.c function: ID3_close line: 252
+delete: 0xab95c0 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab9620 file: source/id3_helper.c function: ID3_info_free line: 24
+delete: 0xab9580 file: source/id3_helper.c function: ID3_info_free line: 25
+delete: 0xab95a0 file: source/id3_helper.c function: ID3_info_free line: 26
+delete: 0xab9500 file: source/id3_helper.c function: ID3_info_free line: 28
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 12 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 12 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9620 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 14 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 14 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9620 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 13 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 13 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9620 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 2 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 2 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9620 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9620 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9620 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab95a0 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab9500 file: source/id3.c function: ID3_close line: 252
+delete: 0xab95c0 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab9520 file: source/id3_helper.c function: ID3_info_free line: 24
+delete: 0xab95e0 file: source/id3_helper.c function: ID3_info_free line: 25
+delete: 0xab9600 file: source/id3_helper.c function: ID3_info_free line: 26
+delete: 0xab9660 file: source/id3_helper.c function: ID3_info_free line: 27
+delete: 0xab9640 file: source/id3_helper.c function: ID3_info_free line: 28
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 6 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 6 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab9660 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab9640 file: source/id3.c function: ID3_close line: 252
+delete: 0xab9500 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab9520 file: source/id3_helper.c function: ID3_info_free line: 24
+delete: 0xab95c0 file: source/id3_helper.c function: ID3_info_free line: 25
+delete: 0xab9580 file: source/id3_helper.c function: ID3_info_free line: 26
+delete: 0xab95a0 file: source/id3_helper.c function: ID3_info_free line: 27
+delete: 0xab9620 file: source/id3_helper.c function: ID3_info_free line: 28
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 10 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 10 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 12 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 12 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 10 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 10 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab95a0 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab9620 file: source/id3.c function: ID3_close line: 252
+delete: 0xab9500 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab9520 file: source/id3_helper.c function: ID3_info_free line: 24
+delete: 0xab95e0 file: source/id3_helper.c function: ID3_info_free line: 25
+delete: 0xab9600 file: source/id3_helper.c function: ID3_info_free line: 26
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9520 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9520 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 15 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 15 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9520 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 22 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 22 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9520 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9520 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9520 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab95e0 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab9600 file: source/id3.c function: ID3_close line: 252
+delete: 0xab9620 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab9580 file: source/id3_helper.c function: ID3_info_free line: 24
+delete: 0xab95c0 file: source/id3_helper.c function: ID3_info_free line: 25
+delete: 0xab9640 file: source/id3_helper.c function: ID3_info_free line: 26
+delete: 0xab9660 file: source/id3_helper.c function: ID3_info_free line: 27
+delete: 0xab95a0 file: source/id3_helper.c function: ID3_info_free line: 28
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 15 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 15 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 10 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 10 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab9660 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab95a0 file: source/id3.c function: ID3_close line: 252
+delete: 0xab9600 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab9580 file: source/id3_helper.c function: ID3_info_free line: 24
+delete: 0xab95e0 file: source/id3_helper.c function: ID3_info_free line: 25
+delete: 0xab9500 file: source/id3_helper.c function: ID3_info_free line: 26
+delete: 0xab9520 file: source/id3_helper.c function: ID3_info_free line: 27
+delete: 0xab9620 file: source/id3_helper.c function: ID3_info_free line: 28
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 6 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 6 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab9520 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab9620 file: source/id3.c function: ID3_close line: 252
+delete: 0xab95c0 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab9580 file: source/id3_helper.c function: ID3_info_free line: 24
+delete: 0xab9600 file: source/id3_helper.c function: ID3_info_free line: 25
+delete: 0xab9640 file: source/id3_helper.c function: ID3_info_free line: 26
+delete: 0xab9660 file: source/id3_helper.c function: ID3_info_free line: 27
+delete: 0xab95a0 file: source/id3_helper.c function: ID3_info_free line: 28
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 6 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 6 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 9 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 9 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab9660 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab95a0 file: source/id3.c function: ID3_close line: 252
+delete: 0xab9500 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab9580 file: source/id3_helper.c function: ID3_info_free line: 24
+delete: 0xab95c0 file: source/id3_helper.c function: ID3_info_free line: 25
+delete: 0xab95e0 file: source/id3_helper.c function: ID3_info_free line: 26
+delete: 0xab9520 file: source/id3_helper.c function: ID3_info_free line: 27
+delete: 0xab9620 file: source/id3_helper.c function: ID3_info_free line: 28
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 15 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 15 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab9520 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab9620 file: source/id3.c function: ID3_close line: 252
+delete: 0xab9600 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab9580 file: source/id3_helper.c function: ID3_info_free line: 24
+delete: 0xab95a0 file: source/id3_helper.c function: ID3_info_free line: 25
+delete: 0xab9640 file: source/id3_helper.c function: ID3_info_free line: 26
+delete: 0xab9660 file: source/id3_helper.c function: ID3_info_free line: 27
+delete: 0xab9500 file: source/id3_helper.c function: ID3_info_free line: 28
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95a0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 6 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 6 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95a0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95a0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 6 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 6 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95a0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95a0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95a0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab9660 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab9500 file: source/id3.c function: ID3_close line: 252
+delete: 0xab9520 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab9580 file: source/id3_helper.c function: ID3_info_free line: 24
+delete: 0xab9600 file: source/id3_helper.c function: ID3_info_free line: 25
+delete: 0xab95c0 file: source/id3_helper.c function: ID3_info_free line: 26
+delete: 0xab95e0 file: source/id3_helper.c function: ID3_info_free line: 27
+delete: 0xab9620 file: source/id3_helper.c function: ID3_info_free line: 28
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 15 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 15 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 14 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 14 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab95e0 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab9620 file: source/id3.c function: ID3_close line: 252
+delete: 0xab9500 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab9580 file: source/id3_helper.c function: ID3_info_free line: 24
+delete: 0xab95a0 file: source/id3_helper.c function: ID3_info_free line: 25
+delete: 0xab9640 file: source/id3_helper.c function: ID3_info_free line: 26
+delete: 0xab9660 file: source/id3_helper.c function: ID3_info_free line: 27
+delete: 0xab9520 file: source/id3_helper.c function: ID3_info_free line: 28
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95a0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95a0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 15 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 15 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95a0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 7 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 7 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95a0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95a0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95a0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab9660 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab9520 file: source/id3.c function: ID3_close line: 252
+delete: 0xab95e0 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab9580 file: source/id3_helper.c function: ID3_info_free line: 24
+delete: 0xab95c0 file: source/id3_helper.c function: ID3_info_free line: 25
+delete: 0xab9600 file: source/id3_helper.c function: ID3_info_free line: 26
+delete: 0xab9620 file: source/id3_helper.c function: ID3_info_free line: 27
+delete: 0xab9500 file: source/id3_helper.c function: ID3_info_free line: 28
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 15 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 15 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 6 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 6 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 10 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 10 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab9620 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab9500 file: source/id3.c function: ID3_close line: 252
+delete: 0xab9640 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab9580 file: source/id3_helper.c function: ID3_info_free line: 24
+delete: 0xab95e0 file: source/id3_helper.c function: ID3_info_free line: 25
+delete: 0xab95a0 file: source/id3_helper.c function: ID3_info_free line: 26
+delete: 0xab9660 file: source/id3_helper.c function: ID3_info_free line: 27
+delete: 0xab9520 file: source/id3_helper.c function: ID3_info_free line: 28
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95a0 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 15 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 15 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95a0 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95a0 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 6 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 6 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95a0 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95a0 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95a0 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab9660 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab9520 file: source/id3.c function: ID3_close line: 252
+delete: 0xab9600 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab9580 file: source/id3_helper.c function: ID3_info_free line: 24
+delete: 0xab9640 file: source/id3_helper.c function: ID3_info_free line: 25
+delete: 0xab9500 file: source/id3_helper.c function: ID3_info_free line: 26
+delete: 0xab9620 file: source/id3_helper.c function: ID3_info_free line: 27
+delete: 0xab95c0 file: source/id3_helper.c function: ID3_info_free line: 28
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 9 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 9 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 9 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 9 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 49 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 49 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9660 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab9620 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab95c0 file: source/id3.c function: ID3_close line: 252
+delete: 0xab9520 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab9580 file: source/id3_helper.c function: ID3_info_free line: 24
+delete: 0xab96a0 file: source/id3_helper.c function: ID3_info_free line: 25
+delete: 0xab9600 file: source/id3_helper.c function: ID3_info_free line: 26
+delete: 0xab95a0 file: source/id3_helper.c function: ID3_info_free line: 27
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9520 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 15 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 15 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9520 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9520 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 6 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 6 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9520 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 9 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 9 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9520 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9520 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab9600 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab95a0 file: source/id3.c function: ID3_close line: 252
+delete: 0xab9640 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab9500 file: source/id3_helper.c function: ID3_info_free line: 24
+delete: 0xab95c0 file: source/id3_helper.c function: ID3_info_free line: 25
+delete: 0xab9620 file: source/id3_helper.c function: ID3_info_free line: 26
+delete: 0xab9660 file: source/id3_helper.c function: ID3_info_free line: 27
+delete: 0xab95e0 file: source/id3_helper.c function: ID3_info_free line: 28
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 10 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 10 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9620 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 22 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 22 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9620 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9620 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 10 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 10 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9620 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab9660 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab95e0 file: source/id3.c function: ID3_close line: 252
+delete: 0xab9520 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab9500 file: source/id3_helper.c function: ID3_info_free line: 24
+delete: 0xab9640 file: source/id3_helper.c function: ID3_info_free line: 25
+delete: 0xab9600 file: source/id3_helper.c function: ID3_info_free line: 28
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 10 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 10 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9520 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 22 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 22 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9520 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9520 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 10 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 10 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9520 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab9640 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab9600 file: source/id3.c function: ID3_close line: 252
+delete: 0xab95c0 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab9620 file: source/id3_helper.c function: ID3_info_free line: 24
+delete: 0xab9580 file: source/id3_helper.c function: ID3_info_free line: 25
+delete: 0xab95a0 file: source/id3_helper.c function: ID3_info_free line: 28
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 10 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 10 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9620 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 22 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 22 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9620 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9620 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 10 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 10 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9620 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab9580 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab95a0 file: source/id3.c function: ID3_close line: 252
+delete: 0xab9520 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab95e0 file: source/id3_helper.c function: ID3_info_free line: 24
+delete: 0xab9600 file: source/id3_helper.c function: ID3_info_free line: 25
+delete: 0xab9500 file: source/id3_helper.c function: ID3_info_free line: 28
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 17 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 17 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9520 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 14 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 14 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9520 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9520 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab9600 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab9500 file: source/id3.c function: ID3_close line: 252
+delete: 0xab9580 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab95a0 file: source/id3_helper.c function: ID3_info_free line: 24
+delete: 0xab95c0 file: source/id3_helper.c function: ID3_info_free line: 27
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 12 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 12 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 14 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 14 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab95a0 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab95c0 file: source/id3.c function: ID3_close line: 252
+delete: 0xab9520 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab95e0 file: source/id3_helper.c function: ID3_info_free line: 24
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 51 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 51 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 7 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 7 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 9 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 9 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 9 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 9 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab9520 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab95e0 file: source/id3.c function: ID3_close line: 252
+delete: 0xab9600 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab9640 file: source/id3_helper.c function: ID3_info_free line: 24
+delete: 0xab9660 file: source/id3_helper.c function: ID3_info_free line: 25
+delete: 0xab96a0 file: source/id3_helper.c function: ID3_info_free line: 27
+delete: 0xab9680 file: source/id3_helper.c function: ID3_info_free line: 28
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 8 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 8 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9660 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab96a0 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab9680 file: source/id3.c function: ID3_close line: 252
+delete: 0xab9500 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 8 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 8 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95a0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab9520 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab9500 file: source/id3.c function: ID3_close line: 252
+delete: 0xab95c0 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 10 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 10 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95a0 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 15 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 15 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95a0 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab9580 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab95c0 file: source/id3.c function: ID3_close line: 252
+delete: 0xab95e0 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab9520 file: source/id3_helper.c function: ID3_info_free line: 24
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 6 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 6 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab95e0 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab9520 file: source/id3.c function: ID3_close line: 252
+delete: 0xab9620 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab95a0 file: source/id3_helper.c function: ID3_info_free line: 24
+delete: 0xab95c0 file: source/id3_helper.c function: ID3_info_free line: 25
+delete: 0xab9640 file: source/id3_helper.c function: ID3_info_free line: 26
+delete: 0xab9660 file: source/id3_helper.c function: ID3_info_free line: 27
+delete: 0xab9600 file: source/id3_helper.c function: ID3_info_free line: 28
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 15 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 15 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 9 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 9 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 18 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab9660 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab9600 file: source/id3.c function: ID3_close line: 252
+delete: 0xab9580 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab95a0 file: source/id3_helper.c function: ID3_info_free line: 24
+delete: 0xab95e0 file: source/id3_helper.c function: ID3_info_free line: 25
+delete: 0xab9500 file: source/id3_helper.c function: ID3_info_free line: 26
+delete: 0xab9520 file: source/id3_helper.c function: ID3_info_free line: 27
+delete: 0xab9620 file: source/id3_helper.c function: ID3_info_free line: 28
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 7 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 7 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 6 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 6 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 11 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab95e0 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab9520 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab9620 file: source/id3.c function: ID3_close line: 252
+delete: 0xab9580 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab95a0 file: source/id3_helper.c function: ID3_info_free line: 24
+delete: 0xab9600 file: source/id3_helper.c function: ID3_info_free line: 25
+delete: 0xab9640 file: source/id3_helper.c function: ID3_info_free line: 26
+delete: 0xab9660 file: source/id3_helper.c function: ID3_info_free line: 27
+delete: 0xab95c0 file: source/id3_helper.c function: ID3_info_free line: 28
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 9 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 9 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 20 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 20 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 49 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 49 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9500 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9600 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab9640 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab9660 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab95c0 file: source/id3.c function: ID3_close line: 252
+delete: 0xab9620 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab95a0 file: source/id3_helper.c function: ID3_info_free line: 24
+delete: 0xab9680 file: source/id3_helper.c function: ID3_info_free line: 25
+delete: 0xab9580 file: source/id3_helper.c function: ID3_info_free line: 26
+delete: 0xab95e0 file: source/id3_helper.c function: ID3_info_free line: 27
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 9 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 9 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9620 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95a0 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 13 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 13 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9620 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95a0 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9620 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95a0 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 20 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 20 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9620 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95a0 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab9580 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab95e0 file: source/id3.c function: ID3_close line: 252
+delete: 0xab9660 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab95c0 file: source/id3_helper.c function: ID3_info_free line: 24
+delete: 0xab9600 file: source/id3_helper.c function: ID3_info_free line: 25
+delete: 0xab9640 file: source/id3_helper.c function: ID3_info_free line: 26
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30
+alloc: 16 bytes   file: source/id3.c function: ID3_file_new line: 198
+alloc: 8 bytes   file: source/id3.c function: ID3_header_new line: 36
+alloc: 48 bytes   file: source/id3_helper.c function: ID3_info_new line: 13
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 9 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 9 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9660 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 4 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9660 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 49 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 49 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9580 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 17 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 17 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9660 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 113
+alloc: 24 bytes   file: source/id3.c function: ID3_frame_new line: 100
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_read line: 176
+alloc: 5 bytes   file: source/id3.c function: ID3_frame_data line: 126
+delete: 0xab9660 file: source/id3.c function: ID3_frame_free line: 110
+delete: 0xab95c0 file: source/id3.c function: ID3_frame_free line: 113
+delete: 0xab9600 file: source/id3.c function: ID3_header_free line: 44
+delete: 0xab9640 file: source/id3.c function: ID3_close line: 252
+delete: 0xab9680 file: source/id3_helper.c function: ID3_info_free line: 23
+delete: 0xab95e0 file: source/id3_helper.c function: ID3_info_free line: 24
+delete: 0xab9500 file: source/id3_helper.c function: ID3_info_free line: 25
+delete: 0xab9620 file: source/id3_helper.c function: ID3_info_free line: 26
+delete: 0xab96a0 file: source/id3_helper.c function: ID3_info_free line: 27
+delete: 0xab9540 file: source/id3_helper.c function: ID3_info_free line: 30

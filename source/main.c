@@ -1,3 +1,4 @@
+#include "remember.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include "io.h"
@@ -27,7 +28,7 @@ int main(int argc, char *argv[]) {
         return 1;
     }
 
-    uint32_t flags = ID3_parse_flags(arg)
+    //uint32_t flags = ID3_parse_flags(arg)
 
     for (int n = 2; n < argc; n++) {
         ID3_sort_file(argv[n], target);

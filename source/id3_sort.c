@@ -1,3 +1,4 @@
+#include "remember.h"
 #include "id3_sort.h"
 
 #include <stdio.h>

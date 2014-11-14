@@ -1,5 +1,27 @@
 var searchData=
 [
-  ['genre',['genre',['../structID3__info.html#a526e7609a22a4648bd26b47125b45a91',1,'ID3_info']]],
-  ['get_5ffilename',['get_filename',['../id3__sort_8c.html#ac62f9c4826aeecde70c0b709794b7bfe',1,'id3_sort.c']]]
+  ['id3_2eh',['id3.h',['../id3_8h.html',1,'']]],
+  ['id3_5fclose',['ID3_close',['../id3_8h.html#aa1c4af149c9b0817ef26b13d6ef51548',1,'id3.h']]],
+  ['id3_5ffile',['ID3_file',['../id3_8h.html#a578a1b41ee4f29e5373c31f885f134b3',1,'id3.h']]],
+  ['id3_5fframe',['ID3_frame',['../id3_8h.html#a442d0052d280dcc9c4faf9e5fa18ab56',1,'id3.h']]],
+  ['id3_5fframe_5fdata',['ID3_frame_data',['../id3_8h.html#a59c6ba64376aa822d081e85d8ca37608',1,'id3.h']]],
+  ['id3_5fframe_5ffree',['ID3_frame_free',['../id3_8h.html#a7b0b0793c2b197a8494b7c648d021b7c',1,'id3.h']]],
+  ['id3_5fframe_5fid',['ID3_frame_id',['../id3_8h.html#abe0e6d07e2cddcc67bf96a00ed5195cf',1,'id3.h']]],
+  ['id3_5fhelper_2eh',['id3_helper.h',['../id3__helper_8h.html',1,'']]],
+  ['id3_5finfo',['ID3_info',['../structID3__info.html',1,'ID3_info'],['../id3__helper_8h.html#a11b37caf6d2bb569e5a5250b82976a84',1,'ID3_info():&#160;id3_helper.h']]],
+  ['id3_5finfo_5ffree',['ID3_info_free',['../id3__helper_8h.html#a94540b9d0339c093f8472bc94c7675d4',1,'id3_helper.h']]],
+  ['id3_5finfo_5fprint',['ID3_info_print',['../id3__helper_8h.html#a4c5e71346e6886e6f4bbe5fc27e732f2',1,'id3_helper.h']]],
+  ['id3_5finfo_5fread',['ID3_info_read',['../id3__helper_8h.html#a582f149bd0b5056b5337ab2a2940ab76',1,'id3_helper.h']]],
+  ['id3_5fopen',['ID3_open',['../id3_8h.html#afa89a2dc98c22a176220c50ffe0ce357',1,'id3.h']]],
+  ['id3_5fread',['ID3_read',['../id3_8h.html#accab455fc4eee17efee06db5cb948e7d',1,'id3.h']]],
+  ['id3_5fsort_2eh',['id3_sort.h',['../id3__sort_8h.html',1,'']]],
+  ['id3_5fsort_5ffile',['ID3_sort_file',['../id3__sort_8h.html#ab79feae04d859aea04c787a88681e914',1,'id3_sort.h']]],
+  ['io_2eh',['io.h',['../io_8h.html',1,'']]],
+  ['io_5fdirectory_5fcreate',['IO_directory_create',['../io_8h.html#a05be6f7ab2e06af72cee6dfaeecfe1a1',1,'io.h']]],
+  ['io_5fdirectory_5fexist',['IO_directory_exist',['../io_8h.html#a379649be20afa31106ce5507b1b6beba',1,'io.h']]],
+  ['io_5fdirectory_5fremove',['IO_directory_remove',['../io_8h.html#ab0fcdcb44598a11f1527a1618e332fb3',1,'io.h']]],
+  ['io_5ffile_5fexist',['IO_file_exist',['../io_8h.html#adc7d405c68d4799db74d84f5a900bb64',1,'io.h']]],
+  ['io_5ffile_5fmove',['IO_file_move',['../io_8h.html#ab079d46a5743e11ef863d0b2fc48d22a',1,'io.h']]],
+  ['io_5ffile_5fremove',['IO_file_remove',['../io_8h.html#a0ed7ca474eccc19d8b94c5ab5fb23f4a',1,'io.h']]],
+  ['io_5ffile_5fsize',['IO_file_size',['../io_8h.html#ae928e3e8bdf75729da884505bc399d31',1,'io.h']]]
 ];

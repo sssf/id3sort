@@ -1,4 +1,4 @@
-.TH "source/io.h" 3 "Wed Oct 15 2014" "Version 1.0" "ID3 Sort" \" -*- nroff -*-
+.TH "source/io.h" 3 "Fri Nov 14 2014" "Version 1.0" "ID3 Sort" \" -*- nroff -*-
 .ad l
 .nh
 .SH NAME
@@ -35,10 +35,6 @@ source/io.h \-
 .br
 .RI "\fICheck if file exists\&. \fP"
 .ti -1c
-.RI "bool \fBIO_file_copy\fP (const char *source, const char *destination)"
-.br
-.RI "\fICopy file from source to destination\&. \fP"
-.ti -1c
 .RI "bool \fBIO_file_move\fP (const char *source, const char *destination)"
 .br
 .RI "\fIMove file from source to destination\&. \fP"
@@ -65,8 +61,6 @@ true if directory could be created, false otherwise
 .RE
 .PP
 
-.PP
-Definition at line 19 of file io\&.c\&.
 .SS "bool IO_directory_exist (const char *directory)"
 
 .PP
@@ -83,8 +77,6 @@ true if directory exist, false otherwise
 .RE
 .PP
 
-.PP
-Definition at line 9 of file io\&.c\&.
 .SS "bool IO_directory_remove (const char *directory)"
 
 .PP
@@ -101,33 +93,6 @@ true if directory could be removed, false otherwise
 .RE
 .PP
 
-.PP
-Definition at line 27 of file io\&.c\&.
-.SS "bool IO_file_copy (const char *source, const char *destination)"
-
-.PP
-Copy file from source to destination\&. 
-.PP
-\fBWarning:\fP
-.RS 4
-This function has not been implemented yet
-.RE
-.PP
-\fBParameters:\fP
-.RS 4
-\fIsource\fP Path to the file to be copied 
-.br
-\fIdestination\fP Path to copy to\&. 
-.RE
-.PP
-\fBReturns:\fP
-.RS 4
-true if file could be copied, false otherwise 
-.RE
-.PP
-
-.PP
-Definition at line 59 of file io\&.c\&.
 .SS "bool IO_file_exist (const char *filename)"
 
 .PP
@@ -144,8 +109,6 @@ true if file exist, false otherwise
 .RE
 .PP
 
-.PP
-Definition at line 49 of file io\&.c\&.
 .SS "bool IO_file_move (const char *source, const char *destination)"
 
 .PP
@@ -164,8 +127,6 @@ true if the file could be moved, false otherwise
 .RE
 .PP
 
-.PP
-Definition at line 85 of file io\&.c\&.
 .SS "bool IO_file_remove (const char *filename)"
 
 .PP
@@ -182,8 +143,6 @@ bool if file could be removed, false otherwise
 .RE
 .PP
 
-.PP
-Definition at line 93 of file io\&.c\&.
 .SS "size_t IO_file_size (const char *filename)"
 
 .PP
@@ -200,8 +159,6 @@ size of the file in bytes, -1 if file doesn't exist or couldn't be opened
 .RE
 .PP
 
-.PP
-Definition at line 36 of file io\&.c\&.
 .SH "Author"
 .PP 
 Generated automatically by Doxygen for ID3 Sort from the source code\&.

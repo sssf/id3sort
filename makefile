@@ -10,11 +10,11 @@ FORMAT_TEST_OUTPUT = ./test/format_test_output.sh
 
 all: main
 
-main: main.o id3.o io.o id3_helper.o id3_sort.o
+main: main.o id3.o io.o id3_helper.o id3_sort.o remember.o
 	mkdir -p bin
 	mkdir -p bin/music
 	cp data/* bin/data/
-	$(COMPILER) $(LINK_FLAGS) $(TARGET) main.o id3.o io.o id3_helper.o id3_sort.o
+	$(COMPILER) $(LINK_FLAGS) $(TARGET) main.o id3.o io.o id3_helper.o id3_sort.o remember.o
 	./$(TARGET) bin/music bin/data/*.mp3
 
 id3.o: source/id3.c source/id3.h
@@ -32,6 +32,8 @@ id3_helper.o: source/id3_helper.c source/id3_helper.h
 id3_sort.o: source/id3_sort.c source/id3_sort.h
 	$(COMPILER) $(BUILD_FLAGS) source/id3_sort.c
 
+remember.o: source/remember.c source/remember.h
+	$(COMPILER) $(BUILD_FLAGS) source/remember.c
 
 
 test: test_io test_id3 test_id3_helper test_id3_sort
@@ -67,11 +69,11 @@ test_id3_sort: source/id3_sort.c source/id3_sort.h source/id3.c source/id3.h sou
 
 
 
-valgrind:
+valgrind: clean
 	mkdir -p bin
 	mkdir -p bin/music
 	cp data/* bin/data/
-	valgrind --leak-check=yes ./$(TARGET) bin/music bin/data/*.mp3
+	valgrind --leak-check=full -v ./$(TARGET) bin/music bin/data/*.mp3
 
 clean:
 	#rm $(TARGET)
