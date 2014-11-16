@@ -8,9 +8,10 @@ TEST_PASS = 's/...passed/\x1b[1;32m   PASSED\x1b[m/g'
 TEST_FAIL = 's/...FAILED/\x1b[1;31m   FAILED\x1b[m/g'
 FORMAT_TEST_OUTPUT = ./test/format_test_output.sh
 
+#Build and run
 all: main
 
-main: main.o id3.o io.o id3_helper.o id3_sort.o remember.o
+main: main.o id3.o io.o id3_helper.o id3_sort.o
 	mkdir -p bin
 	mkdir -p bin/music
 	cp data/* bin/data/
@@ -32,10 +33,7 @@ id3_helper.o: source/id3_helper.c source/id3_helper.h
 id3_sort.o: source/id3_sort.c source/id3_sort.h
 	$(COMPILER) $(BUILD_FLAGS) source/id3_sort.c
 
-remember.o: source/remember.c source/remember.h
-	$(COMPILER) $(BUILD_FLAGS) source/remember.c
-
-
+# Build and run test
 test: test_io test_id3 test_id3_helper test_id3_sort
 	@echo;
 	@echo "ALL YOUR BASE ARE BELONING TO US";
