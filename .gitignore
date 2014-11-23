@@ -23,6 +23,7 @@
 *.hex
 
 .DS_Store
+bin
 bin/*
 documentation/*
 tags

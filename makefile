@@ -6,7 +6,7 @@ TARGET = bin/main
 
 TEST_PASS = 's/...passed/\x1b[1;32m   PASSED\x1b[m/g'
 TEST_FAIL = 's/...FAILED/\x1b[1;31m   FAILED\x1b[m/g'
-FORMAT_TEST_OUTPUT = ./test/format_test_output.sh
+FORMAT_TEST_OUTPUT = ./tests/format_test_output.sh
 
 #Build and run
 all: main
@@ -41,19 +41,19 @@ test: test_io test_id3 test_id3_helper test_id3_sort
 
 test_io: source/io.h source/io.c source/io.h
 	@mkdir -p bin
-	@$(COMPILER) $(LINK_FLAGS) bin/test_io source/io.c test/test_io.c -lcunit
+	@$(COMPILER) $(LINK_FLAGS) bin/test_io source/io.c tests/test_io.c -lcunit
 	@./bin/test_io | sed $(TEST_PASS)  | sed $(TEST_FAIL)
 
 
-test_id3: source/id3.h source/id3.c test/test_id3.c
+test_id3: source/id3.h source/id3.c tests/test_id3.c
 	@mkdir -p bin
-	@$(COMPILER) $(LINK_FLAGS) bin/test_id3 source/id3.c test/test_id3.c -lcunit
+	@$(COMPILER) $(LINK_FLAGS) bin/test_id3 source/id3.c tests/test_id3.c -lcunit
 	@./bin/test_id3 | sed $(TEST_PASS)  | sed $(TEST_FAIL)
 
 
-test_id3_helper: source/id3.c source/id3.h source/id3_helper.h source/id3_helper.c test/test_id3_helper.c
+test_id3_helper: source/id3.c source/id3.h source/id3_helper.h source/id3_helper.c tests/test_id3_helper.c
 	@mkdir -p bin
-	@$(COMPILER) $(LINK_FLAGS) bin/test_id3_helper source/id3.c source/id3_helper.c test/test_id3_helper.c -lcunit
+	@$(COMPILER) $(LINK_FLAGS) bin/test_id3_helper source/id3.c source/id3_helper.c tests/test_id3_helper.c -lcunit
 	@./bin/test_id3_helper | sed $(TEST_PASS)  | sed $(TEST_FAIL)
 
 test_id3_sort: source/id3_sort.c source/id3_sort.h source/id3.c source/id3.h source/io.c source/io.h source/id3_helper.c source/id3_sort.h
@@ -62,7 +62,7 @@ test_id3_sort: source/id3_sort.c source/id3_sort.h source/id3.c source/id3.h sou
 	@cp bin/test_data/music0.mp3  bin/test_data/file_has_all_frames.mp3
 	@cp bin/test_data/music39.mp3 bin/test_data/file_missing_album.mp3
 	@cp bin/test_data/music38.mp3 bin/test_data/file_missing_frames.mp3
-	@$(COMPILER) $(LINK_FLAGS) bin/test_id3_sort source/id3_sort.c source/id3.c source/io.c source/id3_helper.c test/test_id3_sort.c -lcunit
+	@$(COMPILER) $(LINK_FLAGS) bin/test_id3_sort source/id3_sort.c source/id3.c source/io.c source/id3_helper.c tests/test_id3_sort.c -lcunit
 	@./bin/test_id3_sort | sed $(TEST_PASS)  | sed $(TEST_FAIL)
 
 
